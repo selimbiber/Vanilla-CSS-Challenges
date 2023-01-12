@@ -1,0 +1,65 @@
+/***************************** LAYOUT ********************************/
+
+#bgcolor {
+    background-color: rgb(159, 192, 136);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+#nav {
+    background-color: rgb(232, 192, 125);
+    height: 40px;
+    padding-top: 20px;
+    border: 1;
+}
+
+#section {
+    list-style-position: inside;
+    border-style:groove;
+    border-color: rgb(204, 112, 75);;
+    border-width: 9px;
+}
+
+.img {
+    border: 5px solid rgb(97, 65, 36);
+}
+
+#article1 {
+    border-style:groove;
+    border-color: rgb(204, 112, 75);;
+    border-width: 9px;
+}
+
+#article2 {
+    border-style:groove;
+    border-color: rgb(204, 112, 75);;
+    border-width: 9px;
+}
+
+#article3 {
+    border-style:groove;
+    border-color: rgb(204, 112, 75);;
+    border-width: 9px;
+}
+
+#article4 {
+    border-style:groove;
+    border-color: rgb(204, 112, 75);;
+    border-width: 9px;
+}
+
+#article5 {
+    border-style:groove;
+    border-color: rgb(204, 112, 75);;
+    border-width: 9px;
+}
+
+#article6 {
+    border-style:groove;
+    border-color: rgb(204, 112, 75);;
+    border-width: 9px;
+}
