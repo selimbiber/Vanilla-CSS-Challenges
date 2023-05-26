@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-family: Cabin, 'Source Sans Pro', sans-serif;
+	font-size: 1rem;
+}
+
+body {
+	line-height: 1.2;
+	max-height: 100%;
+	max-width: 100%;
+	background-image: linear-gradient(90deg, red, blue);
+}
+
+.container {
+	max-width: 40%;
+	border-radius: 3px;
+	margin: 2em auto 2em auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	flex-shrink: 0;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+.card {
+	border: 0.5px solid rgb(0, 0, 0);
+	position: relative;	
+	background-color: white;
+	box-shadow: 0 0 20px 2px rgb(0, 0, 0);
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 35px;
+}
+
+.name {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+.options {
+	margin-right: 10px;
+}
+
+.toolbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	padding: 10px;
+}
+
+.like, .comment, .transfer {
+	margin: 5px;
+	flex-grow: 1;
+}
+
+.bookmark {
+	justify-content: flex-end;
+}
+
+.description {
+	padding: 7px;
+}
