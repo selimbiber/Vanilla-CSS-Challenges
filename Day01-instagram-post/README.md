@@ -31,4 +31,4 @@
 
 - [x] Use the font `Cabin` for displaying text on the page. (The font is already imported in CSS file)
 
-### Live code: (https://htmlpreview.github.io/?https://github.com/selimbiber/-30Day30Project-HTML5-CSS3-Challenges/blob/main/Day01-instagram-post/index.html)
+### [Click for Live code](https://htmlpreview.github.io/?https://github.com/selimbiber/-30Day30Project-HTML5-CSS3-Challenges/blob/main/Day01-instagram-post/index.html)
