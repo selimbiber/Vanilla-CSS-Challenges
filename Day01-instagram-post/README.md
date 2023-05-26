@@ -2,7 +2,7 @@
 
 ## In the Exercise Lab, your goal is to build an Instagram Post as per the given design.
 
-### Expected result: ()
+### Expected result: ![instagram-post](https://github.com/selimbiber/-30Day30Project-HTML5-CSS3-Challenges/assets/117529414/28c60b82-254e-4d81-854a-1ef47768a414)
 
 ### The Given Instagram Post consits of 4 sections:
 
@@ -31,4 +31,4 @@
 
 - [x] Use the font `Cabin` for displaying text on the page. (The font is already imported in CSS file)
 
-### Live code: ()
+### Live code: (https://htmlpreview.github.io/?https://github.com/selimbiber/-30Day30Project-HTML5-CSS3-Challenges/blob/main/Day01-instagram-post/index.html)
