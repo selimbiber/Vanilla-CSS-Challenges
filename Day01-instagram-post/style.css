@@ -70,13 +70,13 @@ a {
 	padding: 10px;
 }
 
-.like, .comment, .transfer {
-	margin: 5px;
-	flex-grow: 1;
+.toolbar > .left-side {
+	display: flex;
+	justify-content: center;
 }
 
-.bookmark {
-	justify-content: flex-end;
+.left-side-icon {
+	margin: 5px;
 }
 
 .description {
