@@ -2,7 +2,8 @@
 
 ## In the exercise lab you would have to build the given Playground Card design to as close as possible.
 
-### Expected result: 
+### Expected result: ![playground-title](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/567bbf4e-50ce-464e-866a-28dc1dc9dbe0)
+
 
 ### You can make use of flexbox or grid to complete this lab. There are no restrictions set for building this component.
 
@@ -27,4 +28,4 @@
   
 - [x] The colour of the description and the collaborators text should be `#71717a`
 
-### [Click for live code]()
+### [Click for live code](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day02-playground-card/index.html)
