@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+/* #18181b - NavBar Background Color */
+
+/* #a1a1aa - Text Color */
+
+/* Get Started Button Bg color - #5046e5 */
+
+:root {
+	font-family: "Inter", sans-serif;
+	font-size: 1rem;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+	position:relative;
+	background-color: #18181b;
+	border-bottom: 0.5em solid rgb(71, 71, 71);
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	max-height: 3em;
+	margin-top: 18em;
+}
+
+a {
+	text-decoration: none;
+	color: #a1a1aa;
+}
+
+li {
+	font-size: 0.7em;
+	list-style-type: none;
+}
+
+.menu-items {
+	display: flex;
+	align-items: center;
+	margin-left: -2em;
+}
+
+.dropdown-menu-learn {
+	padding: 0.6em;
+}
+
+.dropdown-menu-learn:after {
+	content: "\f107";
+    font-family: FontAwesome;
+	margin-left: 0.2em;
+	color: #a1a1aa;
+	cursor: pointer;
+}
+
+.dropdown-menu-practice {
+	padding: 0.6em;
+}
+
+.dropdown-menu-practice:after {
+	content: "\f107";
+    font-family: FontAwesome;
+	margin-left: 0.2em;
+	color: #a1a1aa;
+	cursor: pointer;
+}
+
+.dropdown-menu-company {
+	padding: 0.6em;
+}
+
+.dropdown-menu-company:after {
+	content: "\f107";
+    font-family: FontAwesome;
+	margin-left: 0.2em;
+	color: #a1a1aa;
+	cursor: pointer;
+}
+
+.logo {
+	padding-left: 3em;
+}
+
+.logo_icon {
+	max-height: 1.5em;
+	margin: 0.8em auto auto 1em;
+	position: absolute;
+	margin-left: -2em;
+}
+
+.logo_name {
+	font-weight: 600;
+	color: white;
+	display: flex;
+	margin-top: 1em;
+}
+
+.login-start {
+	display: inline-flex;
+	align-items: center;
+}
+
+.menu-pricing {
+	padding: 0.6em;
+}
+
+.menu-login {
+	padding: 0.6em;
+	padding-right: 1.2em;
+}
+
+button {
+	background-color: #5046e5;
+	border: 0px;
+	border-radius: 0.5em;
+	margin-right: 1em;
+	height: 3em;
+	width: 7.5em;
+	align-self: center;
+	color: white;
+	cursor: pointer;
+	font-size: 0.7em;
+}
