@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/295/295128.png"
+      type="image/x-icon"
+    />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login to <span id="title"> codedamn </span></h2>
+      <div class="card">
+        <form method="post" action="https://register-demo.freecodecamp.org">
+          <label for="mail-username" class="mail-username"
+            >Email address / Username <br />
+            <input
+              id="mail-username"
+              name="mail-username"
+              type="email"
+              type="text"
+              required /><br />
+            <br
+          /></label>
+          <br />
+          <label for="password" class="password"
+            >Password <br />
+            <input
+              id="password"
+              name="password"
+              type="password"
+              pattern="[a-z0-5]{8,}"
+              required
+          /></label>
+        </form>
+        <label class="check-forget" for="check-me">
+          <input id="check-me" name="check-me" type="checkbox" />
+          <span class="remember-me">Remember me</span>
+          <span class="forget">
+            <a href="#">Forget your password?</a>
+          </span>
+        </label>
+        <button class="sign-btn">
+          <img src="./assets/lock.svg" alt="lock-icon" /> <span>Sign in</span>
+        </button>
+        <div>
+          <span class="continue">
+            <span class="border-left"><hr /></span>
+            <span class="continue-text">Or continue with</span>
+            <span class="border-right"><hr /></span>
+          </span>
+        </div>
+        <span class="g-btns"
+          ><button class="google-btn">
+            <img
+              id="google-logo"
+              src="./assets/google.svg"
+              alt="google-logo"
+            /></button
+          ><button class="github-btn">
+            <img
+              id="github-logo"
+              src="./assets/github.svg"
+              alt="github-logo"
+            /></button
+        ></span>
+        <div class="quaccount">
+          <span>Don't have an account?</span
+          ><span><a href="#">Create Account</a></span>
+        </div>
+        <footer>
+          This site is protected by reCAPTCHA and the Google Privacy <br />
+          Policy and Terms of Service apply.
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
