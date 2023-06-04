@@ -10,6 +10,10 @@
 ### Follow the given design from the design image and build the layout.
 
 ### Expected Result:
+  
+  ![responsive-pricing-card-mobile](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b28f153f-6ef6-4421-ad2a-8db61ed5310c)
+  
+  ![responsive-pricing-card-desktop](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/870326dc-8b3e-4e8d-8b67-2016ae44340b)
 
 #### Note:
 
@@ -26,5 +30,4 @@ This is a self assessed lab. There are not test cases available for this exercis
 - [x] Add the header, price and the button
 - [x] Make the card responsive for the mobile design
 
-
-
+### [Click for live code preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day05-responsive-pricing-card/index.html)
