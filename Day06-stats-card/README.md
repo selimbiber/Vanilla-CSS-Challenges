@@ -11,6 +11,9 @@
 
 ### Expected Result:
 
+  <img width="1167" alt="stats-card-desktop" src="https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/8e9b3437-25fa-42f2-9f1b-b1ac6ac0e12c">
+  <img width="363" alt="stats-card-mobile" src="https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b92d4c8d-d3b2-40ed-9ffc-bc2a74cd82cf">
+
 #### Note:
 
 This is a self assessed lab. There are not test cases available for this exercise lab. You would have to manually check the challenges when you're done.
@@ -24,3 +27,5 @@ This is a self assessed lab. There are not test cases available for this exercis
 - [x] Style the percentage and text with the appropriate color. (Mentioned in style.css)
 - [x] Create 2 copies of the current `.card` component and update the data as in design page
 Make the cards container a responsive container to look
+
+### [Click for live code preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day06-stats-card/index.html)
