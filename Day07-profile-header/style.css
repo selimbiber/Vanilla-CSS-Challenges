@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: "Inter", sans-serif;
+	line-height: 1;
+}
+
+.container {
+	font-size: 10px;
+	padding: 0.3em;
+	color: #111827;
+}
+
+.profile-card {
+	box-sizing: border-box;
+	height: 25em;
+	display: flex;
+	flex-direction: column;
+}
+
+.profile-background-image {
+	height: 25em;
+	width: 100%;
+	border-top-left-radius: 1em;
+	object-fit:cover;
+}
+
+.user-profile {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding-left: 10.5em;
+	padding-right: 10.5em;
+}
+
+.user-photo {
+	height: 15em;
+	width: 15em;
+	margin-left: 1.5em;
+	background-color: white;
+	border-radius: 10em;
+	margin-top: -7.5em;
+	cursor: pointer;
+}
+
+.user-name {
+	font-size: 3em;
+	font-weight: 800;
+	margin-right: auto;
+	margin-left: 0.5em;
+}
+
+.user-buttons_mail-phone {
+	display: flex;
+	flex-direction: row;
+}
+
+.user-mail_button {
+	height: 3em;
+	width: 10em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border: 1px solid #d1d5db;
+	border-radius: 0.5em;
+	margin-right: 1.5em;
+	cursor: pointer;
+}
+
+.user-mail_button > .mail-icon {
+	width: 1.5em;
+	margin-right: 0.7em;
+}
+
+.user-phone_button {
+	height: 3em;
+	width: 7em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border: 1px solid #d1d5db;
+	border-radius: 0.5em;
+	margin-right: 1.5em;
+	cursor: pointer;
+}
+
+.user-phone_button > .phone-icon {
+	width: 1.5em;
+	margin-right: 0.7em;
+}
+
+/* For mobile phones ***********************************************************************************/
+@media screen and (max-width: 768px) {
+	.user-profile {
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		justify-content:flex-start;
+		padding-left: 0.3em;
+	}
+	
+	.user-name {
+		margin-top: 1.4em;
+		margin-left: 0.7em;
+	}
+
+	.user-buttons_mail-phone {
+		max-width: auto;
+		display: flex;
+		flex-direction: column;
+		margin-top: 4em;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 2em;
+	}
+
+	.user-mail_button {
+		font-size: 1.7em;
+		border-radius: 0.7em;
+		border-width: 0.12em;
+		margin-left: auto;
+		margin-right: auto;
+		width:26.3em;
+	}
+
+	.user-phone_button {
+		font-size: 1.7em;
+		border-radius: 0.7em;
+		border-width: 0.12em;
+		margin-top: 1.2em;
+		margin-left: auto;
+		margin-right: auto;
+		width:26.3em;
+	}
+}
