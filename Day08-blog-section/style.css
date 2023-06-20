@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-size: 1.6rem;
+	font-family: 'Inter', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	overflow-wrap: break-word;
+}
+
+a {
+	text-decoration: none;
+	color: #111827;
+}
+
+.cards-container {
+	min-height: 90vh;
+    width: 95%;
+    top: 5%;
+	left: 2.5%;
+    padding-bottom: 5rem;
+    position: relative;
+	display: grid;
+	row-gap: 2.5rem;
+	grid-template-areas: 
+		"card-1"
+		"card-2"
+		"card-3"
+}
+
+header {
+	text-align: center;
+	margin-top: 3rem;
+}
+
+#heading {
+	font-size: 2.5rem;
+	font-weight: 800;
+	color: #111827;
+}
+
+#description {
+	font-size: 1.4rem;
+	color: #6b7280;
+	width: 99%;
+	padding-top: 0.7rem;
+}
+
+.cards {
+	max-height: 58vh;
+    width: 80%;
+	left: 10%;
+	position: relative;
+	border-radius: 1rem;
+	box-shadow: 1px 1px 1rem 0 rgba(0, 0, 0, 0.530);
+}
+
+.blog-post {
+	padding: 2rem;
+}
+
+.blog-post_tag > a {
+	color: #4f46e5;
+	cursor: pointer;
+}
+
+.blog-post_title {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.7rem;
+}
+
+.blog-post_text {
+	font-size: 1.1rem;
+	color: #6b7280;
+}
+
+.article-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position:absolute;
+ 	bottom: 1.5rem;
+}
+
+.name-date {
+	align-items: center;
+	cursor: pointer;
+}
+
+.blogger-name {
+	font-size: 1.1rem;
+	padding-left: 0.5rem;
+	display: block;
+}
+
+.blog-date {
+	font-size: 1rem;
+	padding-left: 0.5rem;
+	color: #6b7280;
+	display: block;
+}
+
+#card-1 {
+	grid-area: card-1;
+}
+
+#card-2 {
+	grid-area: card-2;
+}
+
+#card-3 {
+	grid-area: card-3;
+}
+
+.blog-image {
+	top: 0;
+	height: 40%;
+	width: 100%;
+	object-fit:cover;
+	object-position: right center;
+	border-radius: 1rem 1rem 0 0;
+}
+
+.profile-image {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 6rem;
+	cursor: pointer;
+}
+
+/* For laptops and mid screen devices (min: 992px) */
+@media screen and (min-width: 992px) {
+	body {
+		height: auto;
+	}
+	.cards-container {
+		min-height: auto;
+		max-width: 90%;
+		top: 4rem;
+		padding-right: 1%;
+		column-gap: 1.5%;
+		grid-template-areas: 
+			"card-1 card-2 card-3"
+	}
+	
+	header {
+		padding-top: 3rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#description {
+		width: 50rem;
+	}
+	.cards {
+		width: 100%;
+	}
+}
