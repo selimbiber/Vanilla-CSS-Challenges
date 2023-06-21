@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+  
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;  
+	padding: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 1.6rem;
+	height: 100vh;
+	width: 100vw;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(224,28,48,0.6671043417366946) 100%);
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border: solid darkgray;
+	top: 47.5vh;
+	left: 42%;
+	border: 0;
+}
+
+#button {
+	height: 5vh;
+	width: 10rem;
+	cursor: pointer;
+}
+
+.tooltip_text {
+	visibility: hidden;
+	background-color: lightgray;
+	color: black;
+	text-align: center;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 6rem;
+	margin-left: -6rem;
+	opacity: 0;
+	transition: opacity 1.2s;
+}
+
+.tooltip:hover .tooltip_text {
+	visibility: visible;
+	opacity: 1;
+}
