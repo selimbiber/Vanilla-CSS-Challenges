@@ -6,7 +6,7 @@
 
 #### Expected Result:
 
-    ![tooltip-challenge](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/5719858a-53af-4604-855c-1878e7a25ac2)
+![tooltip-challenge](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/5719858a-53af-4604-855c-1878e7a25ac2)
 
 #### Challenges (2/2 done)
 
