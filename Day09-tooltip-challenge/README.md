@@ -6,6 +6,8 @@
 
 #### Expected Result:
 
+    ![tooltip-challenge](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/5719858a-53af-4604-855c-1878e7a25ac2)
+
 #### Challenges (2/2 done)
 
 - [x] Create a simple `#button` button element in HTML
@@ -16,4 +18,4 @@
 
     https://www.w3schools.com/howto/howto_css_tooltip.asp
 
-#### [Live Preview]()
+#### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day09-tooltip-challenge/index.html)
