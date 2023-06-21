@@ -14,9 +14,11 @@ html {
 }
 
 body {
+	display: flex;
+	justify-content: center;
 	font-family: "Inter", sans-serif;
 	font-size: 1.6rem;
-	height: 100vh;
+	height: auto;
 	width: 100vw;
 	background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(224,28,48,0.6671043417366946) 100%);
@@ -27,7 +29,6 @@ body {
 	display: inline-block;
 	border: solid darkgray;
 	top: 47.5vh;
-	left: 42%;
 	border: 0;
 }
 
