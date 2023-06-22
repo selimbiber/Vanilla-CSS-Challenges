@@ -4,7 +4,9 @@
 
 ### Expected Result:
 
-#### Challenges (0/4 done)
+![mobile-responsive-navbar](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/70acf930-118a-4406-9e6c-9c9ad1ebbe32)
+
+#### Challenges (4/4 done)
 
 - [x] Create a main nav element.
   
@@ -14,4 +16,4 @@
   
 - [x] Using media queries make sure that the nav bar is only visible for the screen size less than 640px.
 
-##### [Live Preview]()
+##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day12-mobile-responsive-navbar/index.html)
