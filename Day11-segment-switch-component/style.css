@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+#root, #__next {
+	isolation: isolate;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;  
+	padding: 0;
+}
+
+body {
+	line-height: 1.5;
+	font-family: "Inter", sans-serif;	
+	font-size: 1.6rem;
+	height: auto;
+	width: 100vw;
+	position: relative;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	box-shadow: none;
+	outline: #000 2px;
+	outline-offset: .05em;
+}
+
+.switch-container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	height: 5rem;
+	width: 10rem;
+	border: 1px solid #ccc;
+}
+
+#switch-left, #slider-left {
+	border-right: 0;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+}
+
+#switch-right, #slider-right {
+	border-left: 0;
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+}
+
+.slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #f5f5f5;
+	-webkit-transition: .4s;
+	transition: .4s;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+input:checked + .slider {
+	background-color: lightblue;
+}
