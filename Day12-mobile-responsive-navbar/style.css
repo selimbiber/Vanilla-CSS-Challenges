@@ -36,6 +36,12 @@ textarea:focus {
 	outline-offset: .05em;
 }
 
+#warning {
+    text-align: center;
+    font-size: large;
+    color: red;
+}
+
 #menu {
     display: flex;
     justify-content: space-around;
@@ -51,7 +57,10 @@ img {
 
 /* Visible for only tiny screens */
 @media screen and (max-width: 640px) {
+    #warning {
+		visibility: collapse;
+    }
     #menu {
 		visibility: visible;
-	}
+    }
 }
