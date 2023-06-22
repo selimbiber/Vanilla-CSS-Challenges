@@ -8,6 +8,8 @@
 
 #### Expected Result:
 
+![segment-switch-component](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/95452cb1-bf1b-4c02-8c44-2bc9653f2cb8)
+
 #### Challenges (7/7 done)
 
 - [x] Create a simple form component.
@@ -24,4 +26,4 @@
 
 - [x] Use :checked pseudo class to change the background color.
 
-#### [Live Preview]()
+#### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day11-segment-switch-component/index.html)
