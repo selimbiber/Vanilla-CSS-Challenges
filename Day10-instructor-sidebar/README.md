@@ -4,6 +4,8 @@
 
 #### Expected Result:
 
+![instructor-sidebar](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/ecc372b2-8300-4abf-b406-9c491bdd7d73)
+
 #### Challenges (5/5 done)
 
 - [x] Create a aside element for the entire sidebar
@@ -16,4 +18,4 @@
 
 - [x] Use the given colors in the style.css file to style the sidebar with the colors
 
-#### [Live Preview]()
+#### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day10-instructor-sidebar/index.html)
