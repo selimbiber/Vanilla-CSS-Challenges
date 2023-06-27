@@ -8,6 +8,8 @@
 
 ### Expected Result:
 
+![overlay-element](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/ebdb7c03-366c-42d4-bbd3-006b887c7c10)
+
 #### Challenges (4/4 done)
 
 - [x] Create the color background component with height : 400px and width: 250 pixel with background-color as cyan
@@ -18,4 +20,4 @@
 
 - [x] Using the hover class, show the overlay element over the background div and the text as represented in the design.
 
-##### [Live Preview]()
+##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day13-overlay-element/index.html)
