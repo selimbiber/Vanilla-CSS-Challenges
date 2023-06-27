@@ -57,17 +57,17 @@ textarea:focus {
 	transform: rotateY(180deg);
 }
 
-.flip-card_font-side, .flip-card_back-side {
+.flip-card_front-side, .flip-card_back-side {
 	display: flex;
 	justify-content: center;
-    align-items: center;
+    	align-items: center;
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
 }
 
-.flip-card_font-side {
+.flip-card_front-side {
 	background-color: #bbb;
 	color: black;
 }
