@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+#root, #__next {
+	isolation: isolate;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;  
+	padding: 0;
+}
+
+body {
+	line-height: 1.5;
+	font-family: "Inter", sans-serif;	
+	font-size: 1.6rem;
+	min-height: 100vh;
+	width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	box-shadow: none;
+	outline: #000 2px;
+	outline-offset: .05em;
+}
+
+.flip-card {
+	height: 20rem;
+	width: 40rem;
+	background-color: transparent;
+	perspective: 1000px;
+}
+
+.flip-card-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-container {
+	transform: rotateY(180deg);
+}
+
+.flip-card_font-side, .flip-card_back-side {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+
+.flip-card_font-side {
+	background-color: #bbb;
+	color: black;
+}
+
+.flip-card_back-side {
+	text-align: center;
+	flex-direction: column;
+	background-color: rgba(76, 0, 130, 0.534);
+	color: white; 
+	transform: rotateY(180deg);
+}
