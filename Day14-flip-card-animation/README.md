@@ -10,6 +10,8 @@
 
 ### Expected Result:
 
+![flip-card-animation](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/40bda6f7-9dea-4c05-8855-172b03a7b7d3)
+
 #### Challenges (3/3 done)
 
 - [x] Create the card container for the given image and the back container for the text
@@ -18,4 +20,8 @@
   
 - [x] Use the perspective property to generate a 3d Rotation affect
 
-##### [Live Preview]()
+#### Description for Project:
+
+  This project is best viewed in Chrome and Edge browsers.
+
+##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day14-flip-card-animation/index.html)
