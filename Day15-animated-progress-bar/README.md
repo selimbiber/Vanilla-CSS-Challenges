@@ -8,8 +8,10 @@
 
 ### Expected Result:
 
+![animated-progress-bar](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/66238c03-f910-474e-9d0c-5d2d12b49b48)
+
 #### Challenges (1/1 done)
 
 - [x] The progress bar animations works as shown in the gif of expected result.
 
-##### [Live Preview]()
+##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day15-animated-progress-bar/index.html)
