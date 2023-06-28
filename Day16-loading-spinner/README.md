@@ -8,6 +8,8 @@
 
 ### Expected Result:
 
+![loading-spinner](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/084c3084-7db2-4560-bdd5-3c9d2d962f0f)
+
 #### Challenges (5/5 done)
 
 - [x] Set a width & height of the #loader to a fixed value like 50px
@@ -16,4 +18,4 @@
 - [x] Set the animate property to spin forever.
 - [x] Set the proper keyframe for for spin creating the 360 degress rotation using the transform property and rotate()
 
-##### [Live Preview]()
+##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day16-loading-spinner/index.html)
