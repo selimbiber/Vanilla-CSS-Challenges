@@ -1,4 +1,4 @@
-# Instructions for Disable Text Selection
+# Instructions for Disable Text and Image Selection
 
 ## In this lab, you would have to make the give article element non-selectable using the cursor. You would be learning about user-select property.
 
@@ -20,4 +20,4 @@ Webkit is the rendering engine used in the Safari Browser. Whereas Blink in the 
 Verify that the text is not selectable by double clicking
 Verify that the text is not selectable by dragging for a selection
 
-##### [Live Preview]()
+##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day17-disable-text-selection/index.html)
