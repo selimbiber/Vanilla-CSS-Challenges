@@ -1,0 +1,68 @@
+#root, #__next {
+	isolation: isolate;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;  
+	padding: 0;
+}
+
+body {
+	font-size: 1.6rem;
+	min-height: 100vh;
+	width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: coral;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	box-shadow: none;
+	outline: #000 2px;
+	outline-offset: .05em;
+}
+
+.breadcrumb {
+    height: 3rem;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.603);
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.breadcrumb > li {
+    display: inline;
+    font-size: 2rem;
+}
+
+.breadcrumb a {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(10, 54, 199, 0.596);
+}
+
+li a:hover {
+    color: blue;
+    text-decoration:underline;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
