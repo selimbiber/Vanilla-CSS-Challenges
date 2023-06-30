@@ -8,4 +8,6 @@
 
 ### Expected Result:
 
-#### [Live Preview]()
+![marquee-element](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/082639c0-49d0-42bd-ac98-6ffa5e2afa44)
+
+#### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day21-marquee-element/index.html)
