@@ -2,8 +2,6 @@
 
 ## In this lab you have to create a simple CSS Share, using a square, a circle and a star.
 
-### Expected Result:
-
 #### Challenges (7/7 done)
 
 - [x] Create a div with id square. You can set an arbitrary width and height as this is a square
@@ -20,4 +18,4 @@
 
 - [x] The Star should be on center of the circle
 
-##### [Live Preview]()
+##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day22-simple-css-shape/index.html)
