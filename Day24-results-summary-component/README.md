@@ -24,18 +24,26 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 #### Mobile Layout
 
+![mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/0aceb0f4-6b15-4304-a0ae-12277e50670e)
+
 #### Desktop Layout
+
+![desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/685a07ed-5534-4c89-bb91-e8b7e1cabcbb)
 
 ### My Result
 
 #### Mobile Layout
 
+![my-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/c9002ebc-e1a0-41f8-84ca-b1c456746fac)
+
 #### Desktop Layout
+
+![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/eca7c56e-a8f5-433e-9d07-cf8aacd857a7)
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/results-summary-component-using-css-flex-NPJzz_URUJ)
+- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day24-results-summary-component/index.html)
 
 ## My process
 
