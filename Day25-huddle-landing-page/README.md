@@ -24,26 +24,26 @@ This is a solution to the [Huddle landing page with single introductory section]
 
 #### Mobile Layout
 
-
+![mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/5667903e-e1df-4dcd-b2b2-7d9fe09b1051)
 
 #### Desktop Layout
 
-
+![desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/0ebe5cf9-0dfe-4129-8746-052fb1116aca)
 
 ### My Result
 
 #### Mobile Layout
 
-
+![mobile-layout](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/aa4e7dbd-5c23-4613-a8c4-641c950aad0b)
 
 #### Desktop Layout
 
-
+![desktop-layout](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/a649a8ac-ba31-44f9-afe5-54214d4da722)
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-aub1789nSE)
+- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day25-huddle-landing-page/index.html)
 
 ## My process
 
