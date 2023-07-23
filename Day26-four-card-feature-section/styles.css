@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+/* RESET */
+#root, #__next {
+    isolation: isolate;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;  
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+*,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    }
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    padding: 6rem 2.5rem 0rem 2.5rem;
+}
+/* RESET */
+
+header {
+    text-align: center;
+}
+
+#top-heading {
+    color: hsla(234, 12%, 34%, 0.596);
+    font-weight: 400;
+    font-size: 1.88rem;
+}
+
+#sub-heading {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 1.94rem;
+}
+
+#hero-text {
+    margin: 1.2rem 0 6rem 0;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 1.2rem;
+    width: 25rem;
+}
+
+.card-container {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.card {
+    height: 17rem;
+    width: 24.6rem;
+    border-radius: .40rem;
+    box-shadow: 0 .3rem .5rem 1px hsla(234, 12%, 34%, 0.596);
+    padding: 2rem;
+    position: relative;
+}
+
+.card-heading {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.64rem;
+    font-weight: 600;
+}
+
+.card-text {
+    margin-top: .3rem;
+    font-weight: 400;
+    font-size: 1.03rem;
+    color: hsl(229, 6%, 66%);
+}
+
+.card img {
+    width: 4.5rem;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 15.7rem;
+}
+
+.supervisor {
+    border-top: .35rem solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-top: .35rem solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: .35rem solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: .35rem solid hsl(212, 86%, 64%);
+}
+
+footer {
+    font-size: .9rem;
+    display: flex;
+    margin: auto 0 .3rem 0;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        padding: 3rem 6rem 0rem 6rem;
+    }
+    #top-heading {
+        font-size: 2.48rem;
+    }
+    #sub-heading {
+        font-size: 2.56rem;
+    }
+    #hero-text {
+        font-size: 1.07rem;
+        width: 39rem;
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+    .supervisor, .calculator {
+        align-self: center;
+    }
+    .karma {
+        order: 1;
+    }
+}
