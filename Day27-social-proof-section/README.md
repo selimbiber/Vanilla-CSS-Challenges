@@ -24,21 +24,21 @@ This is a solution to the [Social Proof Section](https://www.frontendmentor.io/s
 
 #### Mobile Layout (375px)
 
-
+![mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/5b24f56a-937f-40a8-996b-4a0b572e88d7)
 
 #### Desktop Layout (1440px)
 
-
+![desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/1848faa2-2ef4-43e7-b4cf-d2e32fd5c848)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
-
+![my-mobile-design-375px](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/07c3735c-8b79-4d6c-9031-59d1a5af5653)
 
 #### Desktop Layout (1440px)
 
-
+![my-desktop-design-1440px](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/451e8ca0-41d3-41e1-a9a7-1de96512c5e5)
 
 ### Links
 
