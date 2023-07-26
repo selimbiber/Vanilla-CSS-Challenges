@@ -24,21 +24,21 @@ This is a solution to the [3 Column Preview Card Component](https://www.frontend
 
 #### Mobile Layout (375px)
 
-
+![mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b7426614-7a27-4add-b4aa-76a72821e6c0)
 
 #### Desktop Layout (1440px)
 
-
+![desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/0a459579-68e9-4053-855e-32a1f9180699)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
-
+![my-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/4b1e8c06-c880-4fbc-bf42-a63462652987)
 
 #### Desktop Layout (1440px)
 
-
+![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/2c6cdfe0-fd46-4d13-8a13-48ca154cf1cc)
 
 ### Links
 
