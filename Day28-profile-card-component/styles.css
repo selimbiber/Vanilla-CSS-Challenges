@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/* RESET */
+#root, #__next {
+    isolation: isolate;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;  
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-position: right 50vw bottom 40vh, left 50vw top 47vh;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+
+ul[class],
+ol[class],
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+/* RESET */
+
+#card-container {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 23rem;
+    min-width: 20.5rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+#header-section {
+    background-image: url('./images/bg-pattern-card.svg');
+    background-size: contain;
+    height: 8.5rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+#profile-image {
+    position: absolute;
+    height: 6.4rem;
+    width: 6.4rem;
+    border: .3rem solid white;
+    border-radius: 100%;
+    top: 5.3rem;
+}
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#name-age-city_top-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.4rem;
+    row-gap: .3rem;
+}
+
+#name-age_sub-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+#name, .stats-number {
+    color: hsl(229, 23%, 23%);
+}
+
+#age, #city, .stats-text {
+    color: hsl(0, 0%, 59%);
+}
+
+#city {
+    font-size: .9rem;
+}
+
+#footer-section {
+    border-top: .1rem solid rgba(128, 128, 128, 0.212);
+    margin-top: auto;
+    height: 5.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.stats-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name, .stats-number {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.stats-text {
+    font-size: .7rem;
+    font-weight: 400;
+}
