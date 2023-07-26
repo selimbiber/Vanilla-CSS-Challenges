@@ -24,21 +24,21 @@ This is a solution to the [Profile Card Component](https://www.frontendmentor.io
 
 #### Mobile Layout (375px)
 
-
+![expected-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/ff09ada0-f015-4f0d-9554-81a42bd40082)
 
 #### Desktop Layout (1440px)
 
-
+![expected-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/e7900ab9-37eb-4b38-8ceb-bac4e73c0c78)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
-
+![my-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/5a0a1e12-3282-4c4c-abdf-50bae41e8b18)
 
 #### Desktop Layout (1440px)
 
-
+![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/18fee18d-7310-4dd8-9c1f-e051f22a6161)
 
 ### Links
 
