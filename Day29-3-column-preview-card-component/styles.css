@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+/* RESET */
+#root, #__next {
+    isolation: isolate;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;  
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+*,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    }
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lexend Deca', 'Big Shoulders Display', Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    padding: 9rem 3rem;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto; 
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: none;
+    outline-offset: .05em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+article > * + * {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+/* RESET */
+
+#cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 44rem;
+    width: 33rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+.card-sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.article-area {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    row-gap: .9rem;
+}
+
+.heading {
+    color: hsl(0, 0%, 95%);
+    font-size: 4rem;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+
+.paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.learn-btn {
+    background-color: hsl(0, 0%, 95%);
+    height: 4.8rem;
+    width: 14.6rem;
+    border-radius: 3rem;
+    border: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card .learn-btn:hover {
+    border: .3rem solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-sedans .learn-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.card-suvs .learn-btn {
+    color: hsl(184, 100%, 22%)
+}
+
+.card-luxury .learn-btn {
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 1440px) {
+    #cards-container {
+        flex-direction: row;
+        margin: auto 0;
+    }
+    .card {
+        height: 50rem;
+        width: 30rem;
+    }
+    .card-sedans {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1rem;
+    }
+    .card-luxury {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 1rem;
+    }
+    .heading {
+        margin-bottom: auto;
+    }
+    .article-area {
+        margin-top: 0;
+        margin-bottom: auto;
+        row-gap: 0rem;
+    }
+    .paragraph {
+        font-size: 1.43rem;
+    }
+    .btn-area {
+        margin-top: 10rem;
+    }
+}
