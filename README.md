@@ -30,3 +30,4 @@
 - [x] [Day27 - Social Proof Section](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day27-social-proof-section/index.html)
 - [x] [Day28 - Profile Card Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day28-profile-card-component/index.html) 
 - [x] [Day29 - 3 Column Preview Card Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day29-3-column-preview-card-component/index.html)
+- [x] [Day30 - Testimonials Grid Section](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day30-testimonials-grid-section/index.html) 
