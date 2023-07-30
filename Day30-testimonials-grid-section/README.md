@@ -24,21 +24,21 @@ This is a solution to the [Testimonials grid section](https://www.frontendmentor
 
 #### Mobile Layout (375px)
 
-
+![mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/c023bb18-7f41-4433-85d0-48dcea11b466)
 
 #### Desktop Layout (1440px)
 
-
+![desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b129f6b6-337b-461d-87f6-b113b94a3398)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
-
+![my-mobile-layout](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b7714bae-fef7-46d4-95f2-ec5539b576ea)
 
 #### Desktop Layout (1440px)
 
-
+![my-desktop-layout](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/0e0b2911-3842-4d0f-b858-0ad4a4f104d5)
 
 ### Links
 
