@@ -1,0 +1,274 @@
+:root {
+    --valid-input-color: #198754;
+    --invalid-input-color: #ff0000;
+    --input-bordor-color: #E5E7EB;
+    --submit-button-color: #596D48;
+}
+/* RESET AREA */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    background-color: ghostwhite;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: none;
+    outline-offset: .05em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+article>*+* {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Main Container */
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Figure Section */
+
+#figure-section {
+    background-image: url(./images/aleksandra-khaprenko-background-image-unsplash.jpg);
+    width: 40%;
+    padding: 15rem 0 1rem 0;
+    display: none;
+    flex-direction: column;
+}
+
+#figure-section>figure {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#figure-section>figure>img {
+    height: 12rem;
+}
+
+#figure-section #resource-text {
+    font-size: 1vw;
+    margin-top: auto;
+    text-align: center;
+    color: navy;
+}
+
+#figure-section #resource-text a {
+    color: navy;
+}
+
+/* Form Section */
+
+#form-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+#form-section>form {
+    width: 100%;
+}
+
+fieldset {
+    border: 0;
+}
+
+#form-section form > fieldset {
+    height: 37rem;
+    background-color: snow;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem rgb(211, 211, 211);
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+
+fieldset .sub-group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+legend>h1 {
+    margin-top: 6rem;
+}
+
+fieldset .label-input-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: .2rem;
+}
+
+fieldset .label-input-container>label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+fieldset .label-input-container>input {
+    width: 20rem;
+}
+
+fieldset .label-input-container>input:focus {
+    outline: navy;
+    box-shadow: 0 0 .5rem navy;
+}
+
+input {
+    border: .1rem solid var(--input-bordor-color);
+    padding: .2rem;
+}
+
+input:valid {
+    font-weight: bold;
+    color: var(--valid-input-color);
+    border-color: var(--valid-input-color);
+    background-color: rgba(0, 128, 0, 0.1);
+}
+
+input:invalid {
+    font-weight: bold;
+    color: var(--invalid-input-color);
+    border-color: var(--invalid-input-color);
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+input + span {
+    position: relative;
+}
+
+input + span::before {
+    position: absolute;
+    right: 1rem;
+    top: -2.8rem;
+}
+  
+input:invalid {
+    border: .1rem solid var(--invalid-input-color);
+}
+  
+input:invalid + span::before {
+    content: "✖";
+    color: var(--invalid-input-color);
+}
+  
+input:valid + span::before {
+    content: "✓";
+    color: var(--valid-input-color);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#form-section footer {
+    padding: 5rem 0 0 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+#form-section footer > #create-account-btn {
+    height: 4rem;
+    width: 20rem;
+    font: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:navy;
+    color: snow;
+    border: 0;
+    border-radius: 1rem;
+}
+
+#form-section footer p {
+    font-size: 2rem;
+}
+
+#form-section footer p > #login-link {
+    color: navy;
+    text-decoration: none;
+}
+
+/* For medium and larger devices */
+@media screen and (min-width: 992px) {
+    #figure-section {
+        display: flex;
+    }
+}

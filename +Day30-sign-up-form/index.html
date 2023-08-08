@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="./images/odin-favicon.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>The Odin Project | Sign-up Form</title>
+	</head>
+	<body>
+		<main id="main-container">
+			<section id="figure-section">
+				<figure>
+					<img src="./images/odin-lined.png" alt="" />
+				</figure>
+				<p id="resource-text">
+					Photo by
+					<cite
+						><a
+							href="https://unsplash.com/@xaprrr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+							>Aleksandra Khaprenko</a
+						></cite
+					>
+					on
+					<cite
+						><a
+							href="https://unsplash.com/photos/0PPw9irzLIw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+							>Unsplash</a
+						></cite
+					>
+				</p>
+			</section>
+			<section id="form-section">
+				<form action="https://httpbin.org/post" method="post" id="sign-up-form">
+					<fieldset role="group" id="top-group">
+						<legend><h1 id="heading">Sign-up Form</h1></legend>
+						<fieldset id="name-group" class="sub-group">
+							<div class="label-input-container">
+								<label for="first-name">FIRST NAME</label>
+								<input
+									required
+									type="text"
+									name="first-name"
+									id="first-name"
+									pattern="[a-zA-Z]*"
+									maxlength="20"
+								/>
+								<span></span>
+							</div>
+							<div class="label-input-container">
+								<label for="last-name">LAST NAME</label>
+								<input
+									required
+									type="text"
+									name="last-name"
+									id="last-name"
+									pattern="[a-zA-Z]*"
+									onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+									maxlength="20"
+								/>
+								<span></span>
+							</div>
+						</fieldset>
+						<fieldset id="mail-phone-group" class="sub-group">
+							<div class="label-input-container">
+								<label for="e-mail">EMAIL</label>
+								<input required type="email" name="e-mail" id="e-mail" />
+								<span></span>
+							</div>
+							<div class="label-input-container">
+								<label for="phone-number">PHONE NUMBER</label>
+								<input
+									required
+									pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"
+									type="number"
+									id="phone-number"
+								/>
+								<span></span>
+							</div>
+						</fieldset>
+						<fieldset id="password-group" class="sub-group">
+							<div class="label-input-container">
+								<label for="select_password">PASSWORD</label>
+								<input
+									required
+									pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+									onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters' : ''); if(this.checkValidity()) form.confirm_password.pattern = this.value;"
+									title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+									type="password"
+									name="select_password"
+									id="select_password"
+								/>
+								<span></span>
+							</div>
+							<div class="label-input-container">
+								<label for="confirm_password">CONFIRM PASSWORD</label>
+								<input
+									required
+									pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+									type="password"
+									name="confirm_password"
+									id="confirm_password"
+								/>
+								<span></span>
+							</div>
+						</fieldset>
+					</fieldset>
+					<footer>
+						<input
+							type="submit"
+							value="Create Account"
+							form="sign-up-form"
+							id="create-account-btn"
+						/>
+						<p>
+							Already have an account? <a href="#" id="login-link">Log in</a>
+						</p>
+					</footer>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>
