@@ -31,5 +31,7 @@
 - [x] [Day28 - Profile Card Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day28-profile-card-component/index.html) 
 - [x] [Day29 - 3 Column Preview Card Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day29-3-column-preview-card-component/index.html)
 - [x] [Day30 - Testimonials Grid Section](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day30-testimonials-grid-section/index.html)
+---
 - [+Day30 - Cursor Grid Gallery](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day30%2Bcursor-grid-gallery/index.html)
+- [+Day30 - Sign-up Form](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-sign-up-form/index.html)
 - [+Day30 - Admin Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-admin-dashboard/index.html)
