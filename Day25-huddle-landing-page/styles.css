@@ -37,14 +37,8 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: hsl(257, 40%, 49%) url(./images/bg-mobile.svg) no-repeat;
     background-size: 100% 45%;
-    padding: 4rem;
-    row-gap: 8rem;
 }
 
 a:not([class]) {
@@ -80,26 +74,29 @@ select {
 .container {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
-}
-
-.header-logo {
-    margin: 0 auto 7rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 20rem; */
+    height: 100%;
+    width: 100%;
+    padding: 6rem;
+    row-gap: 10rem;
 }
 
 .header-logo > img {
-    height: 4rem;
+    height: 6.4rem;
 }
 
 .main-area {
     display: flex;
     flex-direction: column;
-    row-gap: 7rem;
+    row-gap: 12rem;
 }
 
 .mockups-section > img {
-    margin-left: 1rem;
-    min-height: 33rem;
-    max-width: 95%;
+    margin-left: 1.2rem;
+    min-height: 32.5rem;
+    width: 96%;
 }
 
 .hero-section {
@@ -112,34 +109,35 @@ select {
 }
 
 .hero-section_heading {
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-weight: 600;
     font-family: 'Poppins';
 }
 
 .hero-section_text {
-    font-size: 2.5rem;
+    font-size: 3.3rem;
     font-weight: 400;
     max-width: 62rem;
 }
 
 .register-btn {
     background-color: #ffffff;
-    height: 5rem;
-    min-width: 23rem;
+    height: 7.7rem;
+    width: 39.3rem;
     border: 0;
     border-radius: 10rem;
     color: hsl(257, 40%, 49%);
     cursor: pointer;
     box-shadow: .5rem .5rem 1rem 1px rgb(66, 66, 66);
-    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 3rem;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
 
 footer img {
@@ -147,8 +145,8 @@ footer img {
 }
 
 .facebook-icon, .twitter-icon {
-    height: 4rem;
-    width: 4rem;
+    height: 6rem;
+    width: 6rem;
 }
 
 .facebook-icon {
@@ -160,23 +158,27 @@ footer img {
 }
 
 .instagram-icon {
-    height: 7rem;
-    width: 7rem;
+    height: 9rem;
+    width: 9rem;
 }
 
-/* For Desktop */
+/* For Desktop Screen Sizes */
 @media screen and (min-width: 1440px) {
     body {
         background-image: url(./images/bg-desktop.svg);
         background-size: 92% 100%;
     }
     .container {
-        padding: 1rem 0 1rem 0;
+        padding: 4.6rem 8rem;
+        row-gap: 0;
+    }
+    .header-logo > img {
+        height: 5.5rem;
     }
     .main-area {
         flex-direction: row;
         gap: 5rem;
-        margin: 0 auto;
+        margin: 5.5rem auto 0;
     }
     .mockups-section > img {
         margin-top: 3.7rem;
@@ -184,14 +186,14 @@ footer img {
     }
     .hero-section {
         min-width: 44%;
-        margin-top: 4rem;
+        margin-top: 2rem;
         text-align: left;
     }
     .hero-section_heading {
-        font-size: 3.7rem;
+        font-size: 3.4rem;
         font-weight: bold;
         margin: 6rem auto 0 1.5rem;
-        width: 50rem;
+        width: 49rem;
     }
     .hero-section_text, .register-btn {
         margin: 0 auto 0 1.7rem;
@@ -201,9 +203,20 @@ footer img {
         width: 49rem;
     }
     .register-btn {
-        min-width: 20rem;
+        height: 5.5rem;
+        width: 20rem;
+        font-size: 2rem;
     }
     footer {
         justify-content: flex-end;
+        margin-bottom: -3.3rem;
+    }
+    .facebook-icon, .twitter-icon {
+        height: 4rem;
+        width: 4rem;
+    }
+    .instagram-icon {
+        height: 7rem;
+        width: 7rem;
     }
 }
