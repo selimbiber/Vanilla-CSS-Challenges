@@ -56,7 +56,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ![my-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/c8616727-180b-4b89-b5ef-5145e3cdcc28)
 
-### Design Design
+### Desktop Design
 
 ![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/f14522ce-8470-46e9-8a25-b2717aca00a7)
 
