@@ -62,7 +62,7 @@ Your users should be able to:
 
 ![my-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b3aac4ec-13e6-4a77-9e13-851607881a78)
 
-### Design Design
+### Desktop Design
 
 ![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/e368edd2-97e2-471a-b3a1-72456300d991)
 
