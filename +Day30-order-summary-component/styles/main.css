@@ -168,8 +168,74 @@ body {
     }
 }
 
-/*todo @media (min-width:1440px) {
+@media (min-width:1440px) {
     body {
         background-image: url(../images/pattern-background-desktop.svg);
+        background-size: contain;
+        padding-top: 4.2rem;
     }
-} */
+
+    .card-component {
+        width: 45.3rem;
+        height: 69.3rem;
+    
+        & figure > img {
+            width: inherit;
+        }
+    
+        & > div {
+            padding: 3rem 5rem;
+            
+            & header {
+    
+                & h1 {
+                    font-size: 2.8rem;
+                }
+        
+                & p {
+                    font-size: 1.6rem;
+                    padding: 0 .3rem;
+                }
+            }
+    
+            & > div {
+                height: 10rem;
+                padding: 0 2.5rem;
+                justify-content: space-between;
+
+                & div {
+                    column-gap: 2rem;
+    
+                    & header {
+    
+                        & h2 {
+                            font-size: 1.64rem;
+                        }
+    
+                        & p {
+                            font-size: 1.64rem;
+                        }
+                    }
+    
+                }
+    
+                & a {
+                    font-size: 1.4rem;
+                }
+            }
+        
+            & footer {
+                row-gap: 1.5rem;
+    
+                & button {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    
+    }
+
+    .footer-section a {
+        font-size: 1.7rem;
+    }
+}
