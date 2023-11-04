@@ -35,3 +35,5 @@
 - [+Day30 - Cursor Grid Gallery](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day30%2Bcursor-grid-gallery/index.html)
 - [+Day30 - Sign-up Form](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-sign-up-form/index.html)
 - [+Day30 - Admin Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-admin-dashboard/index.html)
+- [+Day30 - QR Code Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-qr-code-component/index.html)
+- [+Day30 - Order Summary Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-order-summary-component/index.html) 
