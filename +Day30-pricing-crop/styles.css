@@ -1,0 +1,187 @@
+/* RESET STYLES */
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+	font-size: 1.6rem;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+		"Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* COMMON STYLES */
+
+:root {
+	--body-bg-color: hsl(210, 5%, 16%);
+
+	--offer-card-top-bg-color: hsl(210, 4%, 19%);
+	--offer-card-bottom-bg-color: hsl(200, 4%, 15%);
+
+	--offer-card-theme-color: hsl(43, 100%, 63%);
+
+	--offer-price_blue-color: hsl(200, 97%, 49%);
+	--offer-price_purple-color: hsl(280, 100%, 50%);
+	--offer-price_red-color: hsl(339, 100%, 48%);
+
+	--button-bg-color: hsl(200, 5%, 12%);
+}
+
+body,
+.container,
+.offer-card,
+.offer-card-area,
+.top-area_header,
+.offer-details-list,
+.offer-details-list li {
+	display: flex;
+}
+
+.offer-card,
+.offer-card-area {
+	flex-direction: column;
+}
+
+/* CUSTOM STYLES */
+
+body {
+	background-color: var(--body-bg-color);
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	gap: 4rem;
+	padding: 12rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.offer-card {
+	min-width: 36rem;
+	max-width: 40rem;
+	box-shadow: 1rem 5px 3rem black;
+}
+
+.offer-card-area {
+	padding: 5rem 3rem;
+}
+
+.offer-card-area.top {
+	background-color: var(--offer-card-top-bg-color);
+	position: relative;
+	overflow: hidden;
+	row-gap: 1rem;
+}
+
+.top-area_header {
+	flex-direction: column;
+	row-gap: 2rem;
+}
+
+figure > img {
+	margin-left: -2rem;
+}
+
+.offer-card_heading {
+	color: var(--offer-card-theme-color);
+	font-weight: 600;
+}
+
+.offer-card_text {
+	color: rgb(221, 215, 215);
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.offer-card_price {
+	position: absolute;
+	top: 2rem;
+	right: -5rem;
+	height: 5.5rem;
+	width: 20rem;
+	padding: 1rem 6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(46deg);
+	font-size: 2.4rem;
+	font-weight: 700;
+	color: white;
+}
+
+.price-4 {
+	background-color: var(--offer-price_blue-color);
+}
+
+.price-12 {
+	background-color: var(--offer-price_purple-color);
+}
+
+.price-52 {
+	background-color: var(--offer-price_red-color);
+}
+
+.offer-card-area.bottom {
+	background-color: var(--offer-card-bottom-bg-color);
+	row-gap: 4.6rem;
+}
+
+.offer-details-list {
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	row-gap: 2rem;
+	margin-top: -2rem;
+}
+
+li {
+	list-style-type: none;
+	align-items: center;
+	column-gap: 1.5rem;
+	color: white;
+	font-size: 1.9rem;
+	font-weight: 600;
+}
+
+li::before {
+	content: "✓";
+	color: var(--offer-card-theme-color);
+	font-size: 3.2rem;
+	font-weight: bold;
+}
+
+.offer-select-btn {
+	background-color: var(--button-bg-color);
+	color: var(--offer-card-theme-color);
+	border: 0;
+	border-radius: 0.5rem;
+	padding: 3rem 2rem;
+	letter-spacing: 0.1rem;
+	font-size: 1.7rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: hover 0.3s;
+
+	&:hover {
+		opacity: 0.5;
+	}
+}
