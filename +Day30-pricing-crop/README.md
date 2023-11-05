@@ -63,6 +63,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Original Design
 
+![original-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/8a3d403e-c18e-4bb9-9f12-f4b1c99b1793)
+
 ### My Design
+
+![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/64001dd6-4a79-4aee-aa1e-90362969f57b)
 
 ## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-pricing-crop/index.html)
