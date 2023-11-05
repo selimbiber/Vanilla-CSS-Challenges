@@ -50,13 +50,16 @@ body,
 .offer-card,
 .offer-card-area,
 .top-area_header,
+.offer-card_price,
 .offer-details-list,
 .offer-details-list li {
 	display: flex;
 }
 
 .offer-card,
-.offer-card-area {
+.offer-card-area,
+.top-area_header,
+.offer-details-list {
 	flex-direction: column;
 }
 
@@ -73,115 +76,112 @@ body {
 	padding: 12rem;
 	flex-wrap: wrap;
 	justify-content: center;
-}
 
-.offer-card {
-	min-width: 36rem;
-	max-width: 40rem;
-	box-shadow: 1rem 5px 3rem black;
-}
+	.offer-card {
+		min-width: 36rem;
+		max-width: 40rem;
+		box-shadow: 1rem 5px 3rem black;
 
-.offer-card-area {
-	padding: 5rem 3rem;
-}
+		.offer-card-area {
+			padding: 5rem 3rem;
 
-.offer-card-area.top {
-	background-color: var(--offer-card-top-bg-color);
-	position: relative;
-	overflow: hidden;
-	row-gap: 1rem;
-}
+			&.top {
+				background-color: var(--offer-card-top-bg-color);
+				position: relative;
+				overflow: hidden;
+				row-gap: 1rem;
 
-.top-area_header {
-	flex-direction: column;
-	row-gap: 2rem;
-}
+				.top-area_header {
+					row-gap: 2rem;
 
-figure > img {
-	margin-left: -2rem;
-}
+					figure > img {
+						margin-left: -2rem;
+					}
 
-.offer-card_heading {
-	color: var(--offer-card-theme-color);
-	font-weight: 600;
-}
+					.offer-card_heading {
+						color: var(--offer-card-theme-color);
+						font-weight: 600;
+					}
+				}
 
-.offer-card_text {
-	color: rgb(221, 215, 215);
-	font-size: 1.8rem;
-	font-weight: 600;
-}
+				.offer-card_text {
+					color: rgb(221, 215, 215);
+					font-size: 1.8rem;
+					font-weight: 600;
+				}
 
-.offer-card_price {
-	position: absolute;
-	top: 2rem;
-	right: -5rem;
-	height: 5.5rem;
-	width: 20rem;
-	padding: 1rem 6rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transform: rotate(46deg);
-	font-size: 2.4rem;
-	font-weight: 700;
-	color: white;
-}
+				.offer-card_price {
+					position: absolute;
+					top: 2rem;
+					right: -5rem;
+					height: 5.5rem;
+					width: 20rem;
+					padding: 1rem 6rem;
+					justify-content: center;
+					align-items: center;
+					transform: rotate(46deg);
+					font-size: 2.4rem;
+					font-weight: 700;
+					color: white;
 
-.price-4 {
-	background-color: var(--offer-price_blue-color);
-}
+					&.price-4 {
+						background-color: var(--offer-price_blue-color);
+					}
 
-.price-12 {
-	background-color: var(--offer-price_purple-color);
-}
+					&.price-12 {
+						background-color: var(--offer-price_purple-color);
+					}
 
-.price-52 {
-	background-color: var(--offer-price_red-color);
-}
+					&.price-52 {
+						background-color: var(--offer-price_red-color);
+					}
+				}
+			}
 
-.offer-card-area.bottom {
-	background-color: var(--offer-card-bottom-bg-color);
-	row-gap: 4.6rem;
-}
+			&.bottom {
+				background-color: var(--offer-card-bottom-bg-color);
+				row-gap: 4.6rem;
 
-.offer-details-list {
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	row-gap: 2rem;
-	margin-top: -2rem;
-}
+				.offer-details-list {
+					justify-content: flex-start;
+					align-items: flex-start;
+					row-gap: 2rem;
+					margin-top: -2rem;
 
-li {
-	list-style-type: none;
-	align-items: center;
-	column-gap: 1.5rem;
-	color: white;
-	font-size: 1.9rem;
-	font-weight: 600;
-}
+					li {
+						list-style-type: none;
+						align-items: center;
+						column-gap: 1.5rem;
+						color: white;
+						font-size: 1.9rem;
+						font-weight: 600;
 
-li::before {
-	content: "✓";
-	color: var(--offer-card-theme-color);
-	font-size: 3.2rem;
-	font-weight: bold;
-}
+						&::before {
+							content: "✓";
+							color: var(--offer-card-theme-color);
+							font-size: 3.2rem;
+							font-weight: bold;
+						}
+					}
+				}
 
-.offer-select-btn {
-	background-color: var(--button-bg-color);
-	color: var(--offer-card-theme-color);
-	border: 0;
-	border-radius: 0.5rem;
-	padding: 3rem 2rem;
-	letter-spacing: 0.1rem;
-	font-size: 1.7rem;
-	font-weight: bold;
-	cursor: pointer;
-	transition: hover 0.3s;
+				.offer-select-btn {
+					background-color: var(--button-bg-color);
+					color: var(--offer-card-theme-color);
+					border: 0;
+					border-radius: 0.5rem;
+					padding: 3rem 2rem;
+					letter-spacing: 0.1rem;
+					font-size: 1.7rem;
+					font-weight: bold;
+					cursor: pointer;
+					transition: hover 0.3s;
 
-	&:hover {
-		opacity: 0.5;
+					&:hover {
+						opacity: 0.5;
+					}
+				}
+			}
+		}
 	}
 }
