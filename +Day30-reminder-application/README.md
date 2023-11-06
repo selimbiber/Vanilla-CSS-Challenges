@@ -65,10 +65,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Original Design
 
-![smart-bulb_original-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/39dbfde3-af16-4ea2-930a-6619c65cf10c)
+![reminder_application_original-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/97f39ba6-7684-4cb1-a1ee-9b2c5b908fa1)
 
 ### My Design
 
-![smart-bulb_my-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b59ae64d-b3bf-492a-a87c-080378ad1ab8)
+![reminder_application_my-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/68fc4dab-5642-432b-a634-f85442caa2d5)
 
 ## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-reminder-application/index.html)
