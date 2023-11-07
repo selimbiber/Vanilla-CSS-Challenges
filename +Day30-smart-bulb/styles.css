@@ -1,0 +1,262 @@
+/*! RESET STYLES */
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+	font-size: 1.6rem;
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+		'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+button {
+	cursor: pointer;
+}
+
+/*! COMMON STYLES */
+
+body,
+.container,
+.card,
+.form-box,
+label {
+	display: flex;
+}
+
+.card,
+.form-box,
+label {
+	flex-direction: column;
+}
+
+.container,
+.left-card,
+.semi-circle {
+	position: relative;
+}
+
+.bulb-figure > img,
+.semi-circle::before,
+.off-bulb-icon > img,
+.open-bulb-icon > img,
+.open-bulb-btn,
+.mid-card,
+.right-card {
+	position: absolute;
+}
+
+.left-card,
+.mid-card,
+.right-card {
+	justify-content: flex-end;
+}
+
+body,
+.mid-card,
+.right-card {
+	align-items: center;
+}
+
+/*! CUSTOM STYLES */
+
+body {
+	background-color: hsl(222, 100%, 98%);
+	justify-content: center;
+	padding: 5rem 0;
+}
+
+.container {
+	width: 110rem;
+	padding-left: 3rem;
+	margin-bottom: 19rem;
+
+	.card {
+		height: 67rem;
+		width: 37.4rem;
+		border-radius: 1rem;
+		padding: 3.7rem;
+		-moz-box-shadow: 0px 0px 25px hsla(225, 44%, 28%, 0.5);
+		-webkit-box-shadow: 0px 0px 25px hsla(225, 44%, 28%, 0.5);
+		box-shadow: 0px 0px 25px hsla(225, 44%, 28%, 0.5);
+
+		&.left-card {
+			background-color: white;
+			z-index: 3;
+
+			.bulb-figure > img {
+				height: 14rem;
+				width: 14rem;
+				top: 0;
+				left: 50%;
+				transform: translate(-50%, 0%);
+			}
+
+			.form-box {
+				padding-bottom: 7rem;
+				row-gap: 2rem;
+
+				label {
+					row-gap: 0.5rem;
+					font-size: 1.4rem;
+					font-weight: 600;
+				}
+
+				input {
+					height: 6rem;
+					border-radius: 0.3rem;
+					outline: 0;
+					border: 0.2rem solid hsl(224, 48%, 95%);
+					padding-left: 1.6rem;
+					font-size: 1.9rem;
+
+					&:focus {
+						outline: 0.2rem solid;
+					}
+
+					&::placeholder {
+						color: hsl(228, 2%, 59%);
+					}
+				}
+
+				.login-btn {
+					background-color: hsl(226, 55%, 62%);
+					color: white;
+					border: 0;
+					border-radius: 0.3rem;
+					height: 6rem;
+					width: 100%;
+					margin-top: 1rem;
+					font-size: 1.5rem;
+					font-weight: 600;
+					transition: opacity 0.3s;
+
+					&:hover {
+						opacity: 0.5;
+					}
+				}
+			}
+		}
+
+		&.mid-card {
+			background-color: hsl(225, 44%, 28%);
+			z-index: 2;
+			right: 33.4%;
+			top: 5.6rem;
+
+			.off-bulb-btn {
+				border: 1.2rem solid hsl(225, 42%, 31%);
+				background-color: hsl(226, 50%, 23%);
+				color: hsl(226, 55%, 62%);
+				margin-bottom: 1rem;
+
+				&:hover {
+					background-color: white;
+					color: hsl(226, 50%, 23%);
+				}
+			}
+		}
+
+		&.right-card {
+			background-color: white;
+			z-index: 1;
+			right: 3.2rem;
+			top: 19rem;
+
+			.semi-circle {
+				height: 17rem;
+				width: 30rem;
+				border-radius: 150px 150px 0 0;
+				border: 0.5rem solid hsl(224, 48%, 95%);
+				border-bottom: 0;
+				margin-bottom: 7rem;
+
+				&::before {
+					content: '';
+					background-color: hsl(226, 55%, 62%);
+					height: 3.7rem;
+					width: 3.7rem;
+					border-radius: 100%;
+					left: 7rem;
+					top: -0.5rem;
+				}
+
+				.off-bulb-icon > img,
+				.open-bulb-icon > img {
+					height: 3rem;
+					width: 3rem;
+					bottom: -3.7rem;
+					transform: rotate(180deg);
+				}
+
+				.off-bulb-icon > img {
+					left: -2rem;
+					width: 3.7rem;
+				}
+
+				.open-bulb-icon > img {
+					right: -1.8rem;
+				}
+
+				.open-bulb-btn {
+					border: 1rem solid hsl(223, 32%, 91%);
+					bottom: 2rem;
+					left: 50%;
+					transform: translate(-50%, 60%);
+					background-color: white;
+					color: hsl(226, 50%, 23%);
+
+					&:hover {
+						background-color: hsl(226, 50%, 23%);
+						color: white;
+					}
+				}
+			}
+		}
+
+		.off-bulb-btn,
+		.open-bulb-btn {
+			border-radius: 100%;
+			font-size: 2rem;
+			font-weight: bold;
+			height: 14rem;
+			width: 14rem;
+			transition: background-color, color, 0.5s;
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		all: unset;
+		display: flex;
+		flex-direction: column;
+		row-gap: 4rem;
+
+		.card {
+			position: unset;
+
+			&.left-card {
+				position: relative;
+			}
+		}
+	}
+}
