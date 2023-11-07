@@ -65,6 +65,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Original Design
 
+![smart-bulb_original-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/0cce8fa8-d15f-4159-9f7b-9ff4880e7013)
+
 ### My Design
+
+![smart-bulb_my-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/1a9213a3-e17a-48dc-925b-2a249e13aabf)
 
 ## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-smart-bulb/index.html)
