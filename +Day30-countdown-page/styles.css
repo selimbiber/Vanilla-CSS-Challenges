@@ -1,0 +1,139 @@
+/*! RESET STYLES */
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+	font-size: 1.6rem;
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+		'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+button {
+	cursor: pointer;
+}
+
+li {
+	list-style-type: none;
+}
+
+/*! COMMON STYLES */
+
+:root {
+	--base-border-radius: 5rem;
+}
+
+body,
+.container,
+header,
+.countdown-times,
+.remaining-time {
+	display: flex;
+}
+
+.container,
+header,
+.countdown-times {
+	flex-direction: column;
+}
+
+body,
+.countdown-times,
+.remaining-time {
+	justify-content: center;
+	align-items: center;
+}
+
+/*! CUSTOM STYLES */
+
+body {
+	background:
+		/*! FOR BG IMAGE -> https://unsplash.com/@ryanschroeder */
+		url(https://images.unsplash.com/34/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+		no-repeat center;
+	background-size: cover;
+	color: snow;
+	padding: 5rem 0;
+}
+
+.container {
+	justify-content: center;
+	row-gap: 8rem;
+	max-width: 70%;
+
+	& header {
+		justify-content: flex-start;
+		row-gap: 1rem;
+
+		& h1 {
+			font-size: 8.2rem;
+			font-weight: 600;
+			letter-spacing: 0.6rem;
+		}
+
+		& p {
+			font-size: 2.5rem;
+			font-weight: 500;
+		}
+	}
+
+	& .timeboxes-list {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+		gap: 4rem 2rem;
+
+		& .countdown-times {
+			& .remaining-time {
+				background-color: rgba(255, 255, 255, 0.3);
+				font-size: 10rem;
+				font-weight: bold;
+				padding: 7rem 0;
+				width: 22rem;
+				max-width: 100%;
+				box-shadow: 0px 7px 28px -4px rgba(0, 0, 0, 0.5);
+				-webkit-box-shadow: 0px 7px 28px -4px rgba(0, 0, 0, 0.5);
+				-moz-box-shadow: 0px 7px 28px -4px rgba(0, 0, 0, 0.5);
+			}
+
+			&:first-child > .remaining-time {
+				border-top-left-radius: var(--base-border-radius);
+				border-bottom-left-radius: var(--base-border-radius);
+			}
+
+			&:last-child > .remaining-time {
+				border-top-right-radius: var(--base-border-radius);
+				border-bottom-right-radius: var(--base-border-radius);
+			}
+
+			& .time-unit {
+				font-size: 4.6rem;
+				font-weight: 500;
+			}
+		}
+	}
+
+	& .hero-text {
+		font-size: 2rem;
+		font-weight: 500;
+		max-width: 100rem;
+	}
+}
