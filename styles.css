@@ -1,237 +1,33 @@
-/*! START */
+/*! RESET STYLES */
 
-* {
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	background-color: transparent;
 }
-.container {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    max-height: 100%;
+
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+	font-size: 1.6rem;
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+		'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+img {
 	max-width: 100%;
+	display: block;
 }
 
-/*********************************************************** HEADER */
+/*! COMMON STYLES */
 
-header {
-	display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-}
-
-header li {
-    list-style-type: none;
-}
-
-header a {
-    text-decoration: none;
-}
-
-.header_navbar {
-    display: flex;
-    align-items: center;
-    margin: 1em; 
-    /*10em auto 10em;*/
-    justify-content:space-around;
-}
-
-.header_logo {
-    font-size: 1.5em;
-    color: #F9FAF8;
-}
-
-.header_links {
-    display: flex;
-}
-
-.header_links a {
-    color: #E5E7EB;
-    font-size: 18px;
-    padding: 0.7em;
-}
-
-/********************************************************* HERO */
-
-.hero {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    background-color: #1F2937;
-    height: 25em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.hero_left > h1 {
-    font-size: 3em;
-    font-weight: 600;
-    color: #F9FAF8;
-    margin-top: 2em;
-}
-
-.hero_left > p {
-    color: #E5E7EB;
-    font-size: 18px;
-    margin-bottom: 0.5em;
-}
-
-.hero_left > button {
-    background-color: #3882F6;
-    color: white;
-    font-size: 1em;
-    font-weight: 600;
-    width: 7.5em;
-    height: 2.3em;
-    border: 0;
-    border-radius: 0.6em;
-}
-
-.hero_right {
-    align-self: center;
-    
-}
-
-.hero_right > img {
-    width: 28em;
-    height: 14em;
-    margin-left: 2em;
-}
-
-@media screen and (max-width: 768px) {
-    .hero {
-        flex-wrap: wrap;
-        height: 40em;
-    }
-    .hero_right {
-        margin-left: -1em;
-    }
-}
-
-/************************************************* INFO */
-
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.info_head {
-    margin-top: 1em;
-    text-align: center;
-    font-size: 2em;
-    font-weight: 800;
-    color: #1F2937;
-}
-
-.info_boxes {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2em;
-}
-
-.info_boxes > span {
-    width: 10em;
-    margin-right: 2em;
-    margin-left: calc(2em);
-}
-
-.info_box-1, .info_box-2, .info_box-3, .info_box-4 {
-    height: 10em;
-    width: 10em;
-    border: 3px solid #3882F6;
-    border-radius: 1em;
-    margin-bottom: 0.5em;
-}
-
-.info p {
-    text-align: center;
-    margin-bottom: 5em;
-}
-
-/************************************************************************** QUOTE */
-
-.quote {
-    background-color: #E5E7EB;
-    height: 22em;
-    margin-bottom: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.quote_text {
-    font-size: 2em;
-    font-weight: 200;
-    font-style: italic;
-    color: #1f2937cb;
-}
-
-.quote_name {
-    font-size: 1.5em;
-    align-self: flex-end;
-    margin-right: 14em;
-}
-
-/*************************************************************** ACTION */
-
-.action {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 14em;
-}
-
-.action_card {
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    background-color: #3882F6;
-    height: 9em;
-    width: 70%;
-    margin-bottom: auto;
-    border-radius: 10px;
-}
-
-.action-card-text_head {
-    color: white;
-}
-
-.action-card-text_sub {
-    color: #f9faf8bb;
-}
-
-.action button {
-    border: 2px solid white;
-    border-radius: 0.5em;
-    color: white;
-    font-size: 1em;
-    font-weight: 700;
-    background-color: #3882F6;
-    height: 2.2em;
-    width: 8em;
-}
-
-/*********************************************************** FOOTER */
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5em;
-    background-color: #1F2937
-}
-
-.footer a {
-    text-decoration: none;
-    color: white;
-}
-
-.footer p {
-    color: white;
-}
-
-/*! END */
+/*! CUSTOM STYLES */
