@@ -8,27 +8,26 @@
 		<title>Landing Page</title>
 	</head>
 	<body>
-		<header class="header--section row">
+		<header class="header-section row">
 			<a href="#" alt="logo" class="logo">Header Logo</a>
-			<nav class="header--section__navbar row">
-				<a href="#" class="navbar__link">header link one</a>
-				<a href="#" class="navbar__link">header link two</a>
-				<a href="#" class="navbar__link">header link three</a>
+			<nav class="header-section__nav row">
+				<a href="#" class="nav__link">header link one</a>
+				<a href="#" class="nav__link">header link two</a>
+				<a href="#" class="nav__link">header link three</a>
 			</nav>
 		</header>
 
-		<main class="main-section row">
+		<main class="main-section col">
 			<section class="main-section__hero-subsection row">
-				<!-- Hero Section Start -->
-				<article class="hero-subsection__article col">
+				<article class="hero-subsection__content col">
 					<header class="hero-subsection__header">
-						<h1 class="heading-1">This website is flexible</h1>
+						<h1 class="hero-subsection__title">This website is flexible</h1>
 					</header>
 					<p class="hero-subsection__text">
 						This website has some subtext thas goes here under the main title.
 						It's a smaller font and the color is lower contrast.
 					</p>
-					<button class="button hero-subsection__button">Sign up</button>
+					<button class="btn hero-subsection__btn">Sign up</button>
 				</article>
 				<img
 					class="hero-subsection__image"
@@ -36,36 +35,36 @@
 					alt="placeholder-image" />
 			</section>
 
-			<section class="main-section__info-subsection row">
+			<section class="main-section__info-subsection col">
 				<header class="info-subsection__header">
-					<h2 class="heading-2">Some random information.</h2>
+					<h2 class="title">Some random information.</h2>
 				</header>
-				<div class="info-subsection__boxes-container row">
-					<div class="info-box col">
+				<ul class="info-subsection__boxes-container row">
+					<li class="info-box col">
 						<div class="info-box__empty"></div>
-						<p class="info-box__caption">
+						<p class="info-box__subtext">
 							this is some subtext under an illustration or image
 						</p>
-					</div>
-					<div class="info-box col">
+					</li>
+					<li class="info-box col">
 						<div class="info-box__empty"></div>
-						<p class="info-box__caption">
+						<p class="info-box__subtext">
 							this is some subtext under an illustration or image
 						</p>
-					</div>
-					<div class="info-box col">
+					</li>
+					<li class="info-box col">
 						<div class="info-box__empty"></div>
-						<p class="info-box__caption">
+						<p class="info-box__subtext">
 							this is some subtext under an illustration or image
 						</p>
-					</div>
-					<div class="info-box col">
+					</li>
+					<li class="info-box col">
 						<div class="info-box__empty"></div>
-						<p class="info-box__caption">
+						<p class="info-box__subtext">
 							this is some subtext under an illustration or image
 						</p>
-					</div>
-				</div>
+					</li>
+				</ul>
 			</section>
 
 			<section class="main-section__quote-subsection col">
@@ -79,23 +78,19 @@
 				</p>
 			</section>
 
-			<section class="main-section__action-subsection">
-				<div class="action-subsection__card col">
-					<header class="card__header">
-						<h3 class="header__heading heading-3">
-							Call to action! It's time!
-						</h3>
-						<p class="header__text">
-							Sign up for our product by clicking that button right over there!
-						</p>
-					</header>
-					<button class="button action-subsection__button">Sign up</button>
-				</div>
+			<section class="main-section__action-subsection row">
+				<header class="action-subsection__header col">
+					<h3 class="action-subsection__title">Call to action! It's time!</h3>
+					<p class="action-subsection__text">
+						Sign up for our product by clicking that button right over there!
+					</p>
+				</header>
+				<button class="btn action-subsection__btn">Sign up</button>
 			</section>
 		</main>
 
 		<footer class="footer-section">
-			<p>
+			<p class="footer-section__text">
 				Copyright ©
 				<a
 					href="https://www.theodinproject.com/lessons/foundations-landing-page"
