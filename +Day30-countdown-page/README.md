@@ -68,6 +68,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Original Design
 
+![original-countdown-page-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/23fb59a2-97b7-49ff-9cc3-25db6691bcda)
+
 ### My Design
+
+![my-countdown-page-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/8a7e99da-032f-41fe-bda1-f32337351004)
 
 ## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-countdown-page/index.html)
