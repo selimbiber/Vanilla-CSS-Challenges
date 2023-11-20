@@ -1,67 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
-
-body {
-	font-family: "Inter", sans-serif;
-	background-color: #f3f4f6; 
-	margin: 0;
-	padding: 0;
-	font-size: 10px;
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
 }
 
-.container {
-	margin-top: 12em;
-	padding: 10em;
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	background-color: #f3f4f6;
+	font-size: 1.6rem;
+	padding: 3rem;
+}
+
+li {
+	list-style-type: none;
+}
+
+.main-section {
+	display: flex;
+	flex-direction: column;
 }
 
 header {
 	display: flex;
-	justify-content:left;
+	justify-content: left;
 }
 
-header .heading {
+.heading {
 	margin-bottom: 1.3em;
 	font-size: 1.7em;
 }
 
-.stats-cards {
+.cards-container {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 }
 
-.stats-card-1 {
-	border: 0.1em solid rgba(128, 128, 128, 0.24);
-	height: 10em;
-	width: 34em;
+.stats-card {
 	border-radius: 1em 0 0 1em;
 	padding: 1.5em 2.5em;
-	border: 1 solid #f3f4f6;
-	border-top: 0;
-	border-bottom: 0;
-	border-left: 0;
+	border: 0 solid rgba(128, 128, 128, 0.24);
 	background-color: white;
 }
 
-.stats-card-2 {
-	border: 0.1em solid rgba(128, 128, 128, 0.24);
-	height: 10em;
-	width: 34em;
-	padding: 1.5em 2.5em;
-	border: 0;
-	background-color: white;
+.first-card {
+	border-right-width: 0.1em;
 }
 
-.stats-card-3 {
-	border: 0.1em solid rgba(128, 128, 128, 0.24);
-	height: 10em;
-	width: 34em;
-	border-radius: 0 1em 1em 0;	
-	border: 1 solid #f3f4f6;
-	border-top: 0;
-	border-bottom: 0;
-	border-right: 0;
-	padding: 1.5em 2.5em;
-	background-color: white;
+.last-card {
+	border-left-width: 0.1em;
 }
 
 .card-title {
@@ -76,19 +69,22 @@ header .heading {
 	margin-top: -1.7em;
 }
 
-.card-data-numbers > .current-numbers {
-	color:#4f46e5;
+.current-numbers {
+	color: #4f46e5;
 	font-size: 2.7em;
 	font-weight: 600;
 }
 
-.card-data-numbers > .previous-numbers {
+.previous-numbers {
 	color: #6b7280;
 	margin-left: 0.3em;
 	font-size: 1.7em;
 }
 
-.green-chip, .red-chip {
+.green-chip,
+.red-chip {
+	font-size: 1.3em;
+	font-weight: 700;
 	height: 2.5em;
 	width: 7em;
 	border-radius: 2em;
@@ -100,24 +96,20 @@ header .heading {
 .green-chip {
 	background-color: #dcfce7;
 	color: #407f54;
-	font-size: 1.3em;
-	font-weight: 700;
 }
 
 .red-chip {
 	background-color: #fee2e2;
 	color: #991b1b;
-	font-size: 1.3em;
-	font-weight: 700;
 }
 
-.green-arrow, .red-arrow {
+.green-arrow,
+.red-arrow {
 	width: 2em;
 }
 
-/* For mobile phones ***********************************************************************************/
 @media screen and (max-width: 768px) {
-	.container {
+	.main-section {
 		margin: 2.5em auto;
 		padding: 5.5em;
 		display: flex;
@@ -125,34 +117,12 @@ header .heading {
 	}
 
 	header {
-		display: flex;
-		margin-left: auto;
-		margin-right: 28.7em;
+		margin: auto;
 	}
 
-	.stats-cards {
-		display: flex;
+	.cards-container {
 		flex-direction: column;
 		align-items: center;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.stats-card-1 {
-		border-bottom-left-radius: 0;
-		border-top-right-radius: 1em;
-		border-right-width: 0;
-		border-width: 0 0 0.1em 0;
-		border-style: solid;
-		border-color: rgba(128, 128, 128, 0.24);
-	}
-
-	.stats-card-3 {
-		border-top-right-radius: 0;
-		border-bottom-left-radius: 1em;
-		border-left-width: 0;
-		border-width: 0.1em 0 0 0;
-		border-style: solid;
-		border-color: rgba(128, 128, 128, 0.24);
+		margin: 0 auto;
 	}
 }

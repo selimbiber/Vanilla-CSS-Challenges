@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <!-- STYLES -->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Stats Card Challenge</title>
 </head>
-<body>
-    
-    <div class="container">
-        <header>
-            <h3 class="heading">Last 30 days</h3>
-        </header>
-        <div class="stats-cards">
-            <div class="stats-card-1">
-                <h4 class="card-title">Total Subscribers</h4>
-                <p class="card-data"><span class="card-data-numbers"><span class="current-numbers">71,897 </span><span class="previous-numbers">from 70,946</span> </span> <span class="green-chip"><img class="green-arrow" src="assets/arrow-up.svg">12%</span></p>
-            </div>
-            <div class="stats-card-2">
-                <h4 class="card-title">Avg. Open Rate</h4>
-                <p class="card-data"><span class="card-data-numbers"><span class="current-numbers">58.16% </span> <span class="previous-numbers">from 56.14%</span></span> <span class="green-chip"><img class="green-arrow" src="assets/arrow-up.svg">2.02%</span></p>
-            </div>
-            <div class="stats-card-3">
-                <h4 class="card-title">Avg. Click Rate</h4>
-                <p class="card-data"><span class="card-data-numbers"><span class="current-numbers">24.57%</span> <span class="previous-numbers">from 28.62%</span></span> <span class="red-chip"><img class="red-arrow" src="assets/arrow-down.svg">4.05%</span></p>
-            </div>
-        </div>
-    </div>
-    
-</body>
+    <body>
+        <main class="main-section">
+            <header>
+                <h1 class="heading">Last 30 days</h1>
+            </header>
+            <section role="container" class="cards-container">
+                <article class="stats-card first-card">
+                    <h2 class="card-title">Total Subscribers</h2>
+                    <p class="card-data">
+                        <ul class="card-data-numbers">
+                            <li class="current-numbers">71,897</li>
+                            <li class="previous-numbers">from 70,946</li>
+                        </ul>
+                        <div class="green-chip">
+                            <img class="green-arrow" src="assets/arrow-up.svg" />12%
+                        </div>
+                    </p>
+                </article>
+                <article class="stats-card">
+                    <h2 class="card-title">Avg. Open Rate</h2>
+                    <p class="card-data">
+                    <ul class="card-data-numbers">
+                        <li class="current-numbers">58.16% </li>
+                        <li class="previous-numbers">from 56.14%</li>
+                    </ul>
+                    <div class="green-chip"><img class="green-arrow" src="assets/arrow-up.svg" />2.02%</div>
+                    </p>
+                </article>
+                <article class="stats-card last-card">
+                    <h2 class="card-title">Avg. Click Rate</h2>
+                    <p class="card-data">
+                    <ul class="card-data-numbers">
+                        <li class="current-numbers">24.57%</li>
+                        <li class="previous-numbers">from 28.62%</li>
+                    </ul>
+                    <div class="red-chip"><img class="red-arrow" src="assets/arrow-down.svg" />4.05%</div>
+                    </p>
+                </article>
+            </section>
+        </main>
+    </body>
 </html>
