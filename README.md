@@ -1,4 +1,5 @@
 # 30Day30Project-HTML5-CSS3-Challenges
+
 30 HTML5&amp;CSS3 Projects in 30 Days Challenge
 
 - [x] [Day01 - Instagram Post](https://htmlpreview.github.io/?https://github.com/selimbiber/-30Day30Project-HTML5-CSS3-Challenges/blob/main/Day01-instagram-post/index.html)
@@ -28,10 +29,12 @@
 - [x] [Day25 - Huddle Landing Page](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day25-huddle-landing-page/index.html)
 - [x] [Day26 - Four Card Feature Section](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day26-four-card-feature-section/index.html)
 - [x] [Day27 - Social Proof Section](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day27-social-proof-section/index.html)
-- [x] [Day28 - Profile Card Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day28-profile-card-component/index.html) 
+- [x] [Day28 - Profile Card Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day28-profile-card-component/index.html)
 - [x] [Day29 - 3 Column Preview Card Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day29-3-column-preview-card-component/index.html)
 - [x] [Day30 - Testimonials Grid Section](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day30-testimonials-grid-section/index.html)
+
 ---
+
 - [+Day30 - Cursor Grid Gallery](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day30%2Bcursor-grid-gallery/index.html)
 - [+Day30 - Sign-up Form](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-sign-up-form/index.html)
 - [+Day30 - Admin Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-admin-dashboard/index.html)
