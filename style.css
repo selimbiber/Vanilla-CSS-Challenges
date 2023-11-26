@@ -1,81 +1,109 @@
-body{
-    background-color: rgba(223, 43, 43, 0.712);
-    height: auto;
-    width: auto;
-    text-align: center;
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
 
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	background-color: rgba(223, 43, 43, 0.712);
+	font-size: 1.6rem;
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+		'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+	text-align: center;
 }
 
 img {
-    width:40%;
-    height: 35%;
-    border: 1px solid black;
-    border-radius: 14px;
-    padding: 10px;
-    transition-delay: 0.1s;
+	width: 40%;
+	height: 35%;
+	border: 1px solid black;
+	border-radius: 14px;
+	padding: 10px;
+	transition-delay: 0.1s;
 }
 
 img:hover {
-    box-shadow: 0 0 2px 2px rgba(8, 10, 129, 0.897);
+	box-shadow: 0 0 2px 2px rgba(8, 10, 129, 0.897);
 }
 
 div {
-    width:40%;
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 14px;
-    margin-top: 30px;
-    transition-delay: 0.1s;
-    background-color: #dfdf2b;
+	width: 40%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 14px;
+	margin-top: 30px;
+	transition-delay: 0.1s;
+	background-color: #dfdf2b;
 }
 
 div:hover {
-    box-shadow: 0 0 2px 2px rgba(8, 10, 129, 0.897);
+	box-shadow: 0 0 2px 2px rgba(8, 10, 129, 0.897);
 }
 
 h3 {
-    font-style: italic;
+	font-style: italic;
 }
 
-ul, ol {
-    display: table;
-    margin: 0 auto;
+ul,
+ol {
+	display: table;
+	margin: 0 auto;
 }
 
 li {
-    text-align: left;
-    margin: 0 auto;
-    margin-bottom: 3px;
+	text-align: left;
+	margin: 0 auto;
+	margin-bottom: 3px;
 }
 
 hr {
-    border-color: rgba(8, 10, 129, 0.897);
-    margin-left: auto;
-    margin-top: 150px;
+	border-color: rgba(8, 10, 129, 0.897);
+	margin-left: auto;
+	margin-top: 150px;
 }
 
 a {
-    color: black;
-    text-decoration:underline;
+	color: black;
+	text-decoration: underline;
 }
 
 a:visited {
-    color: rgba(8, 10, 129, 0.897);
+	color: rgba(8, 10, 129, 0.897);
 }
 
 a:hover {
-    color: rgba(8, 10, 129, 0.897);
+	color: rgba(8, 10, 129, 0.897);
 }
 
 a:active {
-    color: rgba(8, 10, 129, 0.897);
+	color: rgba(8, 10, 129, 0.897);
 }
 
-footer{
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-    position: relative;
+footer {
+	width: 100%;
+	border-top: thin solid;
+	left: 0;
+	right: 0;
+	margin-bottom: 0;
+	position: relative;
 }
