@@ -1,6 +1,7 @@
-# odin-recipes
-## https://www.theodinproject.com/lessons/foundations-recipes
+# [Odin Recipes](https://www.theodinproject.com/lessons/foundations-recipes)
 
-Bu projeyi geçmişte diğer kurslardan vs öğrendiğim bilgileri yok varsayıp sadece yeni başlamış olduğum "The Odin Project" kursunda şimdiye kadar karşılaştığım bilgileri kullanarak yapmaya çalıştım ve sanırım kursun ileriki aşamalarında bu projeyi göze daha hoş hale getirmem gerekecek. :smirk:
+## Project Description
 
-[click for preview](https://htmlpreview.github.io/?https://github.com/selimbiber/odin-recipes/blob/main/index.html)
+This is my first project at The Odin Project.
+
+## [Live Preview](https://selimbiber.github.io/odin-recipes/)
