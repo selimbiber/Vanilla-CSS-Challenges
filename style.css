@@ -1,65 +1,79 @@
-/***************************** LAYOUT ********************************/
+/***************************** STYLES ********************************/
 
-#bgcolor {
-    background-color: rgb(159, 192, 136);
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+	margin: 0;
+	background-color: rgb(159, 192, 136);
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-#container {
-    text-align: center;
+.container {
+	text-align: center;
 }
 
-#nav {
-    background-color: rgb(232, 192, 125);
-    height: 40px;
-    padding-top: 20px;
-    border: 1;
+.logo {
+	height: 130px;
+	width: 230px;
 }
 
-#section {
-    list-style-position: inside;
-    border-style:groove;
-    border-color: rgb(204, 112, 75);;
-    border-width: 9px;
+.nav {
+	background-color: rgb(232, 192, 125);
+	height: 40px;
+	padding-top: 20px;
 }
 
-.img {
-    border: 5px solid rgb(97, 65, 36);
+.link {
+	text-decoration: none;
 }
 
-#article1 {
-    border-style:groove;
-    border-color: rgb(204, 112, 75);;
-    border-width: 9px;
+.link:hover {
+	text-decoration: underline;
 }
 
-#article2 {
-    border-style:groove;
-    border-color: rgb(204, 112, 75);;
-    border-width: 9px;
+.content {
+	border: 9px groove rgb(204, 112, 75);
 }
 
-#article3 {
-    border-style:groove;
-    border-color: rgb(204, 112, 75);;
-    border-width: 9px;
+.content-article {
+	border-bottom: 9px groove rgb(204, 112, 75);
+	padding-bottom: 20px;
 }
 
-#article4 {
-    border-style:groove;
-    border-color: rgb(204, 112, 75);;
-    border-width: 9px;
+.content-article p {
+	line-height: 1.5;
+	width: 60%;
+	margin: 0 auto;
+	text-align: justify;
 }
 
-#article5 {
-    border-style:groove;
-    border-color: rgb(204, 112, 75);;
-    border-width: 9px;
+.content-table {
+	width: 60%;
+	margin: 20px auto;
+	padding-top: 10px;
+	text-align: left;
 }
 
-#article6 {
-    border-style:groove;
-    border-color: rgb(204, 112, 75);;
-    border-width: 9px;
+.content-table > caption {
+	text-align: left;
+}
+
+.book-cover {
+	height: 150px;
+	width: 150px;
+	border: 5px solid rgb(97, 65, 36);
+	margin-bottom: 25px;
+}
+
+.footer {
+	background-color: hsl(160, 100%, 22%);
+	padding: 1px 0;
+}
+
+.footer > p {
+	color: white;
+	font-weight: 500;
+}
+
+.footer .link {
+	color: rgb(232, 192, 125);
+	font-weight: bold;
 }
