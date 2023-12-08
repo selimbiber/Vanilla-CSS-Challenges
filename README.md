@@ -4,4 +4,4 @@
 
 This is my first project at The Odin Project.
 
-## [Live Preview](https://selimbiber.github.io/odin-recipes/)
+### [Live Preview](https://selimbiber.github.io/odin-recipes/)
