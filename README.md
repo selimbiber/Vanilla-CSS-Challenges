@@ -44,3 +44,7 @@
 - [+Day30 - Reminder Application Design](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-reminder-application/index.html)
 - [+Day30 - Smart Bulb](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-smart-bulb/index.html)
 - [+Day30 - Countdown Page](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-countdown-page/index.html)
+
+---
+
+- [Other responsive design projects I made with only HTML5 and CSS3](https://github.com/selimbiber/Responsive-Web-Design-Certification)
