@@ -1,0 +1,122 @@
+/*! RESET STYLES */
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+	font-size: 1.6rem;
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+		'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+li {
+	list-style-type: none;
+}
+
+/*! COMMON STYLES */
+
+body,
+.container,
+.main-section,
+.search-part,
+.buttons-container,
+.boxes-part,
+.box {
+	display: flex;
+}
+
+.container,
+.main-section,
+.search-part,
+.box,
+.form-top-part,
+.form-sub-part {
+	flex-direction: column;
+}
+
+/*! CUSTOM STYLES */
+
+body {
+	justify-content: center;
+}
+
+.container {
+	align-items: center;
+	max-width: 90%;
+	padding-top: 0.5rem;
+}
+
+.search-part {
+	align-items: center;
+	background-color: hsl(0, 0%, 93%);
+}
+
+.search-text {
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+.search-input {
+	padding: 0.2rem 0.3rem;
+	background-color: white;
+	border: 0.1rem solid;
+	border-radius: 0.2rem;
+}
+
+.buttons-container {
+	gap: 0.4rem;
+}
+
+.search-btn,
+.lucky-btn {
+	padding: 0.2rem 0.8rem;
+	background-color: hsl(0, 0%, 95%);
+	border: 0.1rem solid gray;
+	border-radius: 0.2rem;
+}
+
+.search-btn:hover,
+.lucky-btn:hover {
+	background-color: hsl(0, 0%, 90%);
+}
+
+.boxes-part {
+	justify-content: space-between;
+	gap: 0.2rem;
+	margin-top: 0.2rem;
+}
+
+.left-box {
+	background-color: hsl(174, 66%, 70%);
+}
+
+.middle-box {
+	background-color: hsl(173, 47%, 62%);
+}
+
+.right-box {
+	background-color: hsl(173, 35%, 55%);
+}
+
+.copyright-text {
+	font-size: 1.2rem;
+}
