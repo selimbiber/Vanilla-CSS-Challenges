@@ -4,6 +4,6 @@ module.exports = {
 		require('autoprefixer'),
 		require('postcss-import'),
 		require('postcss-preset-env')({ stage: 1 }),
-		require('cssnano'),
+		require('cssnano')({ preset: 'default' }),
 	],
 };

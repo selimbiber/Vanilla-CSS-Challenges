@@ -4,89 +4,93 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./styles.css" />
+		<link rel="stylesheet" href="./public/styles.css" />
 		<title>Landing Page</title>
 	</head>
 	<body>
 		<header class="header-section row">
-			<a href="#" alt="logo" class="logo">Header Logo</a>
-			<nav class="header-section__nav row">
-				<a href="#" class="nav__link">header link one</a>
-				<a href="#" class="nav__link">header link two</a>
-				<a href="#" class="nav__link">header link three</a>
-			</nav>
+			<div class="container">
+				<a href="#" alt="logo" class="logo">Header Logo</a>
+				<nav class="header-section__nav row">
+					<a href="#" class="nav__link">header link one</a>
+					<a href="#" class="nav__link">header link two</a>
+					<a href="#" class="nav__link">header link three</a>
+				</nav>
+			</div>
 		</header>
 
-		<main class="main-section col">
-			<section class="main-section__hero-subsection row">
-				<article class="hero-subsection__content col">
-					<header class="hero-subsection__header">
-						<h1 class="hero-subsection__title">This website is flexible</h1>
+		<main class="main-section">
+			<div class="container col">
+				<section class="main-section__hero-subsection row">
+					<article class="hero-subsection__content col">
+						<header class="hero-subsection__header">
+							<h1 class="hero-subsection__title">This website is flexible</h1>
+						</header>
+						<p class="hero-subsection__text">
+							This website has some subtext thas goes here under the main title.
+							It's a smaller font and the color is lower contrast.
+						</p>
+						<button class="btn hero-subsection__btn">Sign up</button>
+					</article>
+					<img
+						class="hero-subsection__image"
+						src="https://placehold.co/480x220"
+						alt="placeholder-image" />
+				</section>
+
+				<section class="main-section__info-subsection col">
+					<header class="info-subsection__header">
+						<h2 class="info-subsection__title">Some random information.</h2>
 					</header>
-					<p class="hero-subsection__text">
-						This website has some subtext thas goes here under the main title.
-						It's a smaller font and the color is lower contrast.
+					<ul class="info-subsection__boxes-container row">
+						<li class="info-box col">
+							<div class="info-box__empty"></div>
+							<p class="info-box__subtext">
+								this is some subtext under an illustration or image
+							</p>
+						</li>
+						<li class="info-box col">
+							<div class="info-box__empty"></div>
+							<p class="info-box__subtext">
+								this is some subtext under an illustration or image
+							</p>
+						</li>
+						<li class="info-box col">
+							<div class="info-box__empty"></div>
+							<p class="info-box__subtext">
+								this is some subtext under an illustration or image
+							</p>
+						</li>
+						<li class="info-box col">
+							<div class="info-box__empty"></div>
+							<p class="info-box__subtext">
+								this is some subtext under an illustration or image
+							</p>
+						</li>
+					</ul>
+				</section>
+
+				<section class="main-section__quote-subsection col">
+					<p class="quote-subsection__text">
+						This is an inspring quote, or a testimonial from a customer. Maybe
+						it's just filling up space, or maybe people will actually read it.
+						Who knows? All I know is that it looks nice.
 					</p>
-					<button class="btn hero-subsection__btn">Sign up</button>
-				</article>
-				<img
-					class="hero-subsection__image"
-					src="https://placehold.co/480x220"
-					alt="placeholder-image" />
-			</section>
-
-			<section class="main-section__info-subsection col">
-				<header class="info-subsection__header">
-					<h2 class="title">Some random information.</h2>
-				</header>
-				<ul class="info-subsection__boxes-container row">
-					<li class="info-box col">
-						<div class="info-box__empty"></div>
-						<p class="info-box__subtext">
-							this is some subtext under an illustration or image
-						</p>
-					</li>
-					<li class="info-box col">
-						<div class="info-box__empty"></div>
-						<p class="info-box__subtext">
-							this is some subtext under an illustration or image
-						</p>
-					</li>
-					<li class="info-box col">
-						<div class="info-box__empty"></div>
-						<p class="info-box__subtext">
-							this is some subtext under an illustration or image
-						</p>
-					</li>
-					<li class="info-box col">
-						<div class="info-box__empty"></div>
-						<p class="info-box__subtext">
-							this is some subtext under an illustration or image
-						</p>
-					</li>
-				</ul>
-			</section>
-
-			<section class="main-section__quote-subsection col">
-				<p class="quote-subsection__text">
-					This is an inspring quote, or a testimonial from a customer. Maybe
-					it's just filling up space, or maybe people will actually read it. Who
-					knows? All I know is that it looks nice.
-				</p>
-				<p class="quote-subsection__source">
-					<strong>-Thor, God of Thunder</strong>
-				</p>
-			</section>
-
-			<section class="main-section__action-subsection row">
-				<header class="action-subsection__header col">
-					<h3 class="action-subsection__title">Call to action! It's time!</h3>
-					<p class="action-subsection__text">
-						Sign up for our product by clicking that button right over there!
+					<p class="quote-subsection__source">
+						<strong>-Thor, God of Thunder</strong>
 					</p>
-				</header>
-				<button class="btn action-subsection__btn">Sign up</button>
-			</section>
+				</section>
+
+				<section class="main-section__action-subsection row">
+					<header class="action-subsection__header col">
+						<h3 class="action-subsection__title">Call to action! It's time!</h3>
+						<p class="action-subsection__text">
+							Sign up for our product by clicking that button right over there!
+						</p>
+					</header>
+					<button class="btn action-subsection__btn">Sign up</button>
+				</section>
+			</div>
 		</main>
 
 		<footer class="footer-section">

@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"postcss:watch": "postcss ./styles.css --dir public --watch"
+		"postcss:watch": "postcss ./input.css --output ./public/styles.css --watch"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.16",
@@ -9,6 +9,7 @@
 		"postcss-bem": "^0.4.1",
 		"postcss-cli": "^10.1.0",
 		"postcss-import": "^15.1.0",
+		"postcss-modules": "^6.0.0",
 		"postcss-nested": "^6.0.1",
 		"postcss-preset-env": "^9.3.0"
 	}
