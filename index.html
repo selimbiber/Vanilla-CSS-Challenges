@@ -5,23 +5,33 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./public/styles.css" />
+		<link
+			rel="shortcut icon"
+			href="https://cdn.hashnode.com/res/hashnode/image/upload/v1659733391162/mcIUBIb6F.jpg?auto=compress,format&format=webp"
+			type="image/x-icon" />
 		<title>Landing Page</title>
 	</head>
 	<body>
-		<header class="header-section row">
-			<div class="container">
-				<a href="#" alt="logo" class="logo">Header Logo</a>
+		<header class="header-section">
+			<div class="header-section__container container row">
+				<a href="#" alt="homepage" class="header-section__logo">Header Logo</a>
 				<nav class="header-section__nav row">
-					<a href="#" class="nav__link">header link one</a>
-					<a href="#" class="nav__link">header link two</a>
-					<a href="#" class="nav__link">header link three</a>
+					<a role="button" href="#" class="header-section__link"
+						>header link one</a
+					>
+					<a role="button" href="#" class="header-section__link"
+						>header link two</a
+					>
+					<a role="button" href="#" class="header-section__link"
+						>header link three</a
+					>
 				</nav>
 			</div>
 		</header>
 
 		<main class="main-section">
-			<div class="container col">
-				<section class="main-section__hero-subsection row">
+			<section class="hero-subsection">
+				<div class="hero-subsection__container container row">
 					<article class="hero-subsection__content col">
 						<header class="hero-subsection__header">
 							<h1 class="hero-subsection__title">This website is flexible</h1>
@@ -33,12 +43,14 @@
 						<button class="btn hero-subsection__btn">Sign up</button>
 					</article>
 					<img
-						class="hero-subsection__image"
+						class="hero-subsection__img"
 						src="https://placehold.co/480x220"
 						alt="placeholder-image" />
-				</section>
+				</div>
+			</section>
 
-				<section class="main-section__info-subsection col">
+			<section class="info-subsection">
+				<div class="info-subsection__container container col">
 					<header class="info-subsection__header">
 						<h2 class="info-subsection__title">Some random information.</h2>
 					</header>
@@ -68,42 +80,48 @@
 							</p>
 						</li>
 					</ul>
-				</section>
+				</div>
+			</section>
 
-				<section class="main-section__quote-subsection col">
+			<section class="quote-subsection">
+				<div class="quote-subsection__container container col">
 					<p class="quote-subsection__text">
-						This is an inspring quote, or a testimonial from a customer. Maybe
+						This is an inspiring quote, or a testimonial from a customer. Maybe
 						it's just filling up space, or maybe people will actually read it.
 						Who knows? All I know is that it looks nice.
 					</p>
 					<p class="quote-subsection__source">
 						<strong>-Thor, God of Thunder</strong>
 					</p>
-				</section>
+				</div>
+			</section>
 
-				<section class="main-section__action-subsection row">
-					<header class="action-subsection__header col">
+			<section class="action-subsection">
+				<div class="action-subsection__container container row">
+					<header class="action-subsection__header">
 						<h3 class="action-subsection__title">Call to action! It's time!</h3>
 						<p class="action-subsection__text">
 							Sign up for our product by clicking that button right over there!
 						</p>
 					</header>
 					<button class="btn action-subsection__btn">Sign up</button>
-				</section>
-			</div>
+				</div>
+			</section>
 		</main>
 
 		<footer class="footer-section">
-			<p class="footer-section__text">
-				Copyright ©
-				<a
-					href="https://www.theodinproject.com/lessons/foundations-landing-page"
-					target="_blank"
-					class="footer-section__link"
-					>The Odin Project
-				</a>
-				2023
-			</p>
+			<div class="footer-section__container container row">
+				<p class="footer-section__text">
+					Copyright ©
+					<a
+						href="https://www.theodinproject.com/lessons/foundations-landing-page"
+						target="_blank"
+						class="footer-section__link"
+						>The Odin Project
+					</a>
+					2023
+				</p>
+			</div>
 		</footer>
 	</body>
 </html>
