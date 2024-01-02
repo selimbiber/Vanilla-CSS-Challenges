@@ -46,5 +46,8 @@
 - [+Day30 - Countdown Page](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-countdown-page/index.html)
 
 ---
-
+- [Google Flashback Project](https://selimbiber.github.io/Google-Flashback-Project/)
+- [Book Promotion Blog](https://selimbiber.github.io/Book-Promotion-Blog/)
+- [Landing Page](https://selimbiber.github.io/Landing-Page/)
+- [Odin Recipes](https://selimbiber.github.io/Odin-Recipes/)
 - [Other responsive design projects I made with only HTML5 and CSS3](https://github.com/selimbiber/Responsive-Web-Design-Certification)
