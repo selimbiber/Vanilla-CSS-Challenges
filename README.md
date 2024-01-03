@@ -50,4 +50,5 @@
 - [Book Promotion Blog](https://selimbiber.github.io/Book-Promotion-Blog/)
 - [Landing Page](https://selimbiber.github.io/Landing-Page/)
 - [Odin Recipes](https://selimbiber.github.io/Odin-Recipes/)
-- [Other responsive design projects I made with only HTML5 and CSS3](https://github.com/selimbiber/Responsive-Web-Design-Certification)
+- [Other responsive design projects I made with Pure CSS](https://github.com/selimbiber/Responsive-Web-Design-Certification)
+- [Click to see the challenges I made with Tailwind CSS.](https://github.com/selimbiber/Tailwind-Challenges)
