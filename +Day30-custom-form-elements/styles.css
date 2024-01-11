@@ -1,0 +1,447 @@
+/*! RESET STYLES */
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+	font-size: 1.6rem;
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+		'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+button {
+	cursor: pointer;
+}
+
+li {
+	list-style-type: none;
+}
+
+/*! COMMON STYLES */
+
+body,
+.container,
+.row,
+.col,
+.card,
+.list {
+	display: flex;
+}
+
+.col {
+	flex-direction: column;
+}
+
+/*! CUSTOM STYLES */
+
+body {
+	background-color: hsl(216, 71%, 14%);
+
+	.dot {
+		display: block;
+		position: absolute;
+		z-index: -1;
+		background-color: hsl(216, 59%, 17%);
+		border-radius: 50%;
+
+		&.little {
+			height: 12rem;
+			width: 12rem;
+
+			&.top {
+				top: 17rem;
+				left: 0;
+				right: 10rem;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			&.center {
+				right: 37%;
+				top: 42%;
+			}
+		}
+
+		&.middle {
+			height: 15rem;
+			width: 15rem;
+			top: 18rem;
+			right: 33rem;
+		}
+
+		&.big {
+			height: 46rem;
+			width: 46rem;
+			left: 18rem;
+			bottom: 14rem;
+		}
+	}
+}
+.cards {
+	width: 100%;
+	padding: 4rem;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	gap: 6rem 7rem;
+	& .card {
+		border-radius: 1.2rem;
+
+		&.progress-line {
+			height: 18rem;
+			width: 50rem;
+			background-color: hsl(10, 94%, 67%);
+			justify-content: center;
+			margin-left: auto;
+			margin-right: 1rem;
+
+			& .progress-status.list {
+				justify-content: center;
+				align-items: center;
+				column-gap: 0.3rem;
+
+				& li {
+					margin-bottom: 2rem;
+				}
+
+				& hr {
+					background-color: rgba(255, 255, 255, 0.5);
+					border: rgba(255, 255, 255, 0.5);
+					height: 0.2rem;
+					width: 7rem;
+					margin: 0 0.3rem;
+				}
+				& .progress-circle {
+					height: 5rem;
+					width: 5rem;
+					border-radius: 50%;
+					position: relative;
+
+					&::after {
+						position: absolute;
+						bottom: -2.5rem;
+						font-size: 1.8rem;
+						font-weight: 600;
+						color: white;
+						transform: translate(0%, 50%);
+					}
+				}
+				& .audio.progress-circle {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					background-color: rgba(255, 255, 255, 0.5);
+					color: white;
+					font-size: 2.5rem;
+					font-weight: bold;
+
+					&::after {
+						content: 'Audio';
+					}
+				}
+
+				& .video.progress-circle {
+					background-color: white;
+
+					&::before {
+						content: '';
+						height: 1.8rem;
+						width: 1.8rem;
+						background-color: hsl(10, 94%, 67%);
+						position: absolute;
+						border-radius: 50%;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+
+					&::after {
+						content: 'Video';
+						left: 0.1rem;
+					}
+				}
+
+				& .performance.progress-circle {
+					background-color: rgba(255, 255, 255, 0.5);
+
+					&::after {
+						content: 'Performance';
+						left: -1.7rem;
+					}
+				}
+			}
+		}
+
+		&.services-rating {
+			flex-direction: column;
+			margin-top: 2rem;
+			margin-left: 3rem;
+			background-color: hsl(347, 62%, 62%);
+			color: white;
+			height: 26rem;
+			width: 40rem;
+			row-gap: 1.5rem;
+			padding: 4rem 5rem;
+			& header {
+				text-align: center;
+				width: 70%;
+				margin: 0 auto;
+				padding-top: 1rem;
+
+				& h3 {
+					font-size: 2rem;
+					font-weight: 500;
+					line-height: 1.2;
+				}
+			}
+			& .rating-buttons {
+				margin: 1rem auto 0;
+				flex-direction: row-reverse;
+				justify-content: flex-end;
+				column-gap: 3rem;
+				/* Resource Code: https://codepen.io/nikitahl/pen/LYJyzyM */
+				& .rating-btn {
+					position: fixed;
+					opacity: 0;
+					pointer-events: none;
+
+					&:checked ~ label {
+						color: white;
+					}
+
+					&:checked ~ label::before {
+						content: '★';
+						display: inline-block;
+						font-size: 4rem;
+					}
+
+					&:checked + label::after {
+						content: '';
+						position: absolute;
+						height: 5.5rem;
+						width: 5.5rem;
+						border-radius: 50%;
+						transform: translate(-80%, 10%);
+						background-color: rgba(255, 255, 255, 0.1);
+					}
+				}
+
+				& label {
+					cursor: pointer;
+					font-size: 0;
+					color: white;
+					transition: color 0.1s ease-in-out;
+
+					&:before {
+						content: '☆';
+						display: inline-block;
+						font-size: 4rem;
+					}
+
+					&:hover::before {
+						content: '★';
+					}
+				}
+			}
+
+			.rating-status {
+				justify-content: space-between;
+				margin-left: 1.2rem;
+			}
+		}
+
+		&.experience-rating {
+			flex-direction: column;
+			background-color: hsl(307, 49%, 40%);
+			width: 35rem;
+			height: 25rem;
+			padding: 5rem;
+			row-gap: 5rem;
+			margin-left: auto;
+			margin-top: -7rem;
+
+			& header {
+				row-gap: 3rem;
+				& .lines {
+					column-gap: 0.5rem;
+					& hr {
+						cursor: pointer;
+						height: 0.5rem;
+						width: 6.4rem;
+						border: 0;
+						border-radius: 0.5rem;
+						background-color: white;
+						opacity: 0.5;
+
+						&:active,
+						&.active {
+							opacity: 1;
+						}
+					}
+				}
+
+				& h3 {
+					color: white;
+					font-size: 1.8rem;
+					font-weight: 600;
+				}
+			}
+
+			& .rating-buttons {
+				justify-content: center;
+				column-gap: 4rem;
+				/* Resource Code: https://codepen.io/nikitahl/pen/LYJyzyM */
+				& .rating-btn {
+					position: fixed;
+					opacity: 0;
+					pointer-events: none;
+
+					&:checked ~ label {
+						color: white;
+					}
+
+					&:checked ~ label::before {
+						display: inline-block;
+						font-size: 4rem;
+					}
+
+					&:checked + label::after {
+						content: '';
+						position: absolute;
+						height: 5rem;
+						width: 5rem;
+						border-radius: 50%;
+						transform: translate(-60%, -20%);
+						background-color: rgba(255, 255, 255, 0.3);
+					}
+				}
+
+				& label {
+					cursor: pointer;
+					color: white;
+					font-size: 2rem;
+					transition: color 0.1s ease-in-out;
+				}
+			}
+		}
+
+		&.feedback-survey {
+			flex-direction: column;
+			background-color: hsl(267, 63%, 55%);
+			height: 37rem;
+			width: 35rem;
+			padding: 5rem 6rem 5rem 5rem;
+			row-gap: 4rem;
+			color: white;
+
+			& h3 {
+				line-height: 1.2;
+				font-size: 1.8rem;
+				font-weight: 600;
+			}
+
+			/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox */
+			& .feedback-items {
+				flex-direction: column;
+				row-gap: 2.5rem;
+
+				& .feedback-item {
+					display: block;
+					position: relative;
+					padding-left: 4rem;
+					cursor: pointer;
+					-webkit-user-select: none;
+					-moz-user-select: none;
+					-ms-user-select: none;
+					user-select: none;
+
+					& input {
+						position: absolute;
+						opacity: 0;
+						cursor: pointer;
+						height: 0;
+						width: 0;
+					}
+
+					& .checkmark {
+						position: absolute;
+						top: 0;
+						left: 0;
+						height: 2.8rem;
+						width: 2.8rem;
+						border: 0.2rem solid rgba(255, 255, 255, 0.5);
+						border-radius: 0.3rem;
+
+						/* Create the checkmark/indicator (hidden when not checked) */
+						&:after {
+							content: '';
+							position: absolute;
+							display: none;
+							left: 9px;
+							top: 4px;
+							width: 7px;
+							height: 13px;
+							border: solid hsl(267, 63%, 55%);
+							border-width: 0 3px 3px 0;
+							-webkit-transform: rotate(45deg);
+							-ms-transform: rotate(45deg);
+							transform: rotate(45deg);
+						}
+					}
+
+					/* On mouse-over, add a grey background color */
+					&:hover input ~ .checkmark {
+						background-color: #ccc;
+					}
+
+					/* When the checkbox is checked, add a blue background */
+					& input:checked ~ .checkmark {
+						background-color: white;
+
+						/* Show the checkmark when checked */
+						&:after {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1080px) {
+	.dot {
+		display: none !important;
+	}
+	.cards {
+		display: flex;
+		flex-direction: column;
+
+		& .card {
+			margin: auto !important;
+			&.experience-rating {
+				margin-top: 2rem;
+			}
+		}
+	}
+}

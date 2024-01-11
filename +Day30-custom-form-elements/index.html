@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			rel="shortcut icon"
+			href="https://icons-for-free.com/iconfiles/png/512/document+form+list+survey+tracklist+icon-1320167912093087410.png"
+			type="image/x-icon" />
+		<title>Custom Form Elements</title>
+	</head>
+	<body>
+		<div class="little top dot" aria-hidden="true"></div>
+		<div class="middle dot" aria-hidden="true"></div>
+		<div class="little center dot" aria-hidden="true"></div>
+		<div class="big dot" aria-hidden="true"></div>
+		<main class="cards container">
+			<section class="progress-line card">
+				<ul class="progress-status list">
+					<li title="Audio Progress Circle" class="audio progress-circle done">
+						✓
+					</li>
+					<li aria-hidden=""><hr /></li>
+					<li
+						title="Video Progress Circle"
+						class="video progress-circle doing"></li>
+					<li aria-hidden=""><hr /></li>
+					<li
+						title="Performance Progress Circle"
+						class="performance progress-circle"></li>
+				</ul>
+			</section>
+			<section class="services-rating card">
+				<header>
+					<h3>How do you rate our services</h3>
+				</header>
+				<div class="rating-buttons container">
+					<input
+						type="radio"
+						name="rating-services"
+						value="5"
+						class="rating-btn"
+						id="star-5" />
+					<label for="star-5" title="5 Star">5 Star</label>
+
+					<input
+						type="radio"
+						name="rating-services"
+						value="4"
+						class="rating-btn"
+						id="star-4"
+						checked />
+					<label for="star-4" title="4 Star">4 Star</label>
+
+					<input
+						type="radio"
+						name="rating-services"
+						value="3"
+						class="rating-btn"
+						id="star-3" />
+					<label for="star-3" title="3 Star">3 Star</label>
+
+					<input
+						type="radio"
+						name="rating-services"
+						value="2"
+						class="rating-btn"
+						id="star-2" />
+					<label for="star-2" title="2 Star">2 Star</label>
+
+					<input
+						type="radio"
+						name="rating-services"
+						value="1"
+						class="rating-btn"
+						id="star-1" />
+					<label for="star-1" title="1 Star">1 Star</label>
+				</div>
+				<ul class="rating-status list">
+					<li>Bad</li>
+					<li>Very good</li>
+				</ul>
+			</section>
+			<section class="experience-rating card">
+				<header class="col">
+					<div class="lines row">
+						<hr class="active" />
+						<hr />
+					</div>
+					<h3>Rate your experience</h3>
+				</header>
+				<div class="rating-buttons container">
+					<input
+						type="radio"
+						name="experience-rating"
+						value="1"
+						class="rating-btn"
+						id="rating-1" />
+					<label for="rating-1">1</label>
+
+					<input
+						type="radio"
+						name="experience-rating"
+						value="2"
+						class="rating-btn"
+						id="rating-2" />
+					<label for="rating-2">2</label>
+
+					<input
+						type="radio"
+						name="experience-rating"
+						value="3"
+						class="rating-btn"
+						id="rating-3" />
+					<label for="rating-3">3</label>
+
+					<input
+						type="radio"
+						name="experience-rating"
+						value="4"
+						class="rating-btn"
+						id="rating-4" />
+					<label for="rating-4">4</label>
+
+					<input
+						type="radio"
+						name="experience-rating"
+						value="5"
+						class="rating-btn"
+						id="rating-5" />
+					<label for="rating-5">5</label>
+				</div>
+			</section>
+			<section class="feedback-survey card">
+				<h3>What didn't worked properly?</h3>
+				<div class="feedback-items container col">
+					<label class="feedback-item container">
+						Video was blurry
+						<input
+							type="checkbox"
+							name="feedback-item"
+							value="Video was blurry"
+							id="video-was-blurry" />
+						<span class="checkmark"></span>
+					</label>
+					<label class="feedback-item container">
+						Sound wasn't working
+						<input
+							type="checkbox"
+							name="feedback-item"
+							value="Sound wasn't working"
+							id="sound-wasnt-working"
+							checked />
+						<span class="checkmark"></span>
+					</label>
+					<label class="feedback-item container">
+						App was crashing
+						<input
+							type="checkbox"
+							name="feedback-item"
+							value="App was crashing"
+							id="app-was-crashing" />
+						<span class="checkmark"></span>
+					</label>
+					<label class="feedback-item container">
+						Else
+						<input
+							type="checkbox"
+							name="feedback-item"
+							value="Else"
+							id="else" />
+						<span class="checkmark"></span>
+					</label>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
