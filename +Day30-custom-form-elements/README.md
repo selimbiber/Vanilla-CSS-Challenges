@@ -63,6 +63,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Original Design
 
+![original-custom_form_elements-design](https://github.com/selimbiber/30Day30Project-Pure-CSS-Challenges/assets/117529414/087a9811-2950-4036-be1f-8fe022d4378f)
+
 ### My Design
+
+![my design](https://github.com/selimbiber/30Day30Project-Pure-CSS-Challenges/assets/117529414/6b95607f-6337-483f-a896-721e4d4b09bc)
 
 ## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-custom-form-elements/index.html)
