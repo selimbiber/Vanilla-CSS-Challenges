@@ -1,0 +1,149 @@
+/*! INIT STYLES */
+
+/* Apply isolation property to root and next elements */
+#root,
+#__next {
+	isolation: isolate;
+}
+
+/* Set box-sizing to border-box and adjust font size */
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; /* equivalent to 10px */
+	tab-size: 4;
+	overflow-wrap: break-word;
+	word-break: keep-all;
+	overflow: hidden auto;
+}
+
+/* Reset default styles for all elements */
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+*::before,
+*::after {
+	text-decoration: inherit;
+	vertical-align: inherit;
+}
+
+body {
+	row-gap: 2rem;
+	padding-top: 1rem;
+	background-color: chocolate;
+	min-height: 100dvh;
+	line-height: 1.5;
+	scroll-behavior: smooth;
+	overscroll-behavior: none;
+	text-rendering: optimizeSpeed;
+	font-size: 1.6rem; /* equivalent to 16px */
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+		'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+img {
+	shape-margin: 0.75rem;
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-style: italic;
+	vertical-align: middle;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+p,
+li {
+	margin: 0 auto;
+	max-width: 55ch;
+	text-align: justify;
+}
+
+/*! COMMON STYLES */
+
+.container {
+	row-gap: 2rem;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+/*! CUSTOM STYLES */
+
+.header-section {
+	row-gap: 2rem;
+	text-align: center;
+}
+
+.main-section {
+	row-gap: 1rem;
+	padding: 0 3rem;
+}
+
+img {
+	margin: 0 auto;
+	max-width: 46rem;
+	border-radius: 2rem;
+}
+
+.list {
+	row-gap: 1rem;
+	display: table;
+	margin: 0 auto;
+
+	li {
+		margin-top: 5px;
+		text-align: left;
+	}
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+
+	&:visited,
+	&:active,
+	&:hover {
+		color: rgba(8, 10, 129, 0.897);
+	}
+}
+
+.footer-section {
+	justify-content: center;
+	margin-top: auto;
+	border-top: thin solid;
+	padding: 0.3rem;
+}
