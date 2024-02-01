@@ -1,0 +1,173 @@
+/*! RESET STYLES */
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+body {
+	min-height: 100vh;
+	line-height: 1.5;
+	font-size: 1.6rem;
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+		'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+li {
+	list-style-type: none;
+}
+
+fieldset {
+	border: 0;
+}
+
+/*! COMMON STYLES */
+.container,
+.main-section,
+.search-part,
+.buttons-container,
+.boxes-part,
+.box {
+	display: flex;
+}
+
+.container,
+.main-section,
+.search-part,
+.box {
+	flex-direction: column;
+}
+
+/*! CUSTOM STYLES */
+
+.container {
+	margin: 0 auto;
+	width: 88%;
+	max-width: 1440px;
+	padding-top: 0.5rem;
+}
+
+.header-section {
+	margin: 0 auto;
+}
+
+.main-section {
+	.search-part {
+		align-items: center;
+		background-color: hsl(0, 0%, 93%);
+
+		.search-text {
+			font-size: 1.4rem;
+			font-weight: 400;
+		}
+
+		.search-input {
+			padding: 0.2rem 0.3rem;
+			background-color: white;
+			border: 0.1rem solid;
+			border-radius: 0.2rem;
+		}
+
+		.buttons-container {
+			gap: 0.4rem;
+		}
+
+		.search-btn,
+		.lucky-btn {
+			padding: 0.2rem 0.8rem;
+			background-color: hsl(0, 0%, 95%);
+			border: 0.1rem solid gray;
+			border-radius: 0.2rem;
+		}
+
+		.search-btn:hover,
+		.lucky-btn:hover {
+			background-color: hsl(0, 0%, 90%);
+		}
+	}
+
+	.boxes-part {
+		justify-content: space-between;
+		gap: 0.2rem;
+		margin-top: 0.2rem;
+
+		.box {
+			justify-content: center;
+			align-items: center;
+		}
+
+		.left-box {
+			line-height: 1;
+			background-color: hsl(174, 66%, 70%);
+			width: 37%;
+
+			.search-link {
+				font-size: 1.4rem;
+				font-weight: 500;
+			}
+		}
+
+		.middle-box {
+			line-height: 1;
+			background-color: hsl(173, 47%, 62%);
+			width: 20%;
+		}
+
+		.right-box {
+			background-color: hsl(173, 35%, 55%);
+			width: 43%;
+
+			.legend-text {
+				line-height: 1.4;
+				font-size: 1.2rem;
+				text-align: center;
+			}
+
+			.email-input {
+				background-color: white;
+				border: 1px solid;
+				padding: 0.3rem;
+
+				&::placeholder {
+					color: black;
+				}
+			}
+
+			.submit-input {
+				background-color: hsl(0, 0%, 95%);
+				border: 0.1rem solid gray;
+				padding: 0.3rem 0.5rem;
+				margin-bottom: 0.1rem;
+			}
+		}
+
+		.google-link,
+		.archive-link {
+			font-size: 1.2rem;
+			font-weight: 500;
+		}
+	}
+}
+
+.footer-section {
+	margin-top: 2rem;
+	.copyright-text {
+		font-size: 1.2rem;
+		text-align: center;
+	}
+}
