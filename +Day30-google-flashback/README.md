@@ -10,6 +10,6 @@
 
 ### My Design
 
-![my-design](https://github.com/selimbiber/Pure-CSS-Challenges/assets/117529414/a1c5707f-e12a-44fd-8d1d-7ed23884e477)
+![my-design](https://github.com/selimbiber/Pure-CSS-Challenges/assets/117529414/d6487ffc-c809-4a9e-9226-25096e7efc27)
 
 ### [Preview Link | Önizleme Bağlantısı](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-google-flashback/index.html)
