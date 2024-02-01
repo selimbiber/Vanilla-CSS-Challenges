@@ -3,7 +3,7 @@
 30 HTML5&amp;CSS3 Projects in 30 Days Challenge
 
 - [x] [Day01 - Instagram Post](https://htmlpreview.github.io/?https://github.com/selimbiber/-30Day30Project-HTML5-CSS3-Challenges/blob/main/Day01-instagram-post/index.html)
-- [x] [Day02 - Payground Card](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day02-playground-card/index.html)
+- [x] [Day02 - Playground Card](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day02-playground-card/index.html)
 - [x] [Day03 - Navigation Bar](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day03-navigation-bar/index.html)
 - [x] [Day04 - Login Page](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day04-login-page/index.html)
 - [x] [Day05 - Responsive Pricing Card](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day05-responsive-pricing-card/index.html)
@@ -11,7 +11,7 @@
 - [x] [Day07 - Profile Header](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day07-profile-header/index.html)
 - [x] [Day08 - Blog Section](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day08-blog-section/index.html)
 - [x] [Day09 - Tooltip Challenge](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day09-tooltip-challenge/index.html)
-- [x] [Day10 - İnstructor Sidebar](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day10-instructor-sidebar/index.html)
+- [x] [Day10 - Instructor Sidebar](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day10-instructor-sidebar/index.html)
 - [x] [Day11 - Segment Switch Component](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day11-segment-switch-component/index.html)
 - [x] [Day12 - Mobile Responsive Navbar](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day12-mobile-responsive-navbar/index.html)
 - [x] [Day13 - Overlay Element](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day13-overlay-element/index.html)
@@ -34,7 +34,10 @@
 - [x] [Day30 - Testimonials Grid Section](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day30-testimonials-grid-section/index.html)
 
 ---
-
+- [+Day30 - Google Flashback](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-google-flashback/index.html)
+- [+Day30 - Book Promotion Blog](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-book-promotion-blog/index.html)
+- [+Day30 - Odin Recipes](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-odin-recipes/index.html)
+- [+Day30 - Landing Page](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-landing-page/index.html)
 - [+Day30 - Cursor Grid Gallery](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-cursor-grid-gallery/index.html)
 - [+Day30 - Sign-up Form](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-sign-up-form/index.html)
 - [+Day30 - Admin Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-admin-dashboard/index.html)
