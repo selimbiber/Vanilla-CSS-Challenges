@@ -25,10 +25,9 @@ html {
 }
 
 body {
-  row-gap: 1rem;
-  padding-top: 1rem;
+  align-items: center;
+  padding: 1rem 3rem;
   background-color: rgba(210, 105, 30, 0.568);
-  min-height: 100dvh;
   line-height: 1.5;
   scroll-behavior: smooth;
   overscroll-behavior: none;
@@ -40,36 +39,38 @@ body {
 }
 
 img {
+  max-height: 32rem;
   max-width: 100%;
-  width: 37rem;
+  margin: 0 auto;
 }
 
-body,
-.header,
-.container,
-.footer {
+header,
+main {
+  margin-bottom: 2rem;
+}
+
+.col {
   display: flex;
   flex-direction: column;
 }
 
-.header {
-  gap: 3rem;
-  margin: 0 auto;
+.row {
+  display: flex;
 }
 
 .container {
-  gap: 2rem;
+  gap: 1rem;
+  max-width: 768px;
+  text-align: center;
 }
-
-.container > article {
-  display: flex;
-  flex-direction: column;
+.content {
   gap: 2rem;
-  margin: 0 auto;
   max-width: 55ch;
   text-align: justify;
 }
 
-.footer {
-  align-items: center;
+.recipes-list {
+  gap: 4rem;
+  list-style-type: none;
+  margin: 0 auto;
 }
