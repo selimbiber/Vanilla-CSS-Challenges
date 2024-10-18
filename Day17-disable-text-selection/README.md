@@ -17,7 +17,8 @@ Webkit is the rendering engine used in the Safari Browser. Whereas Blink in the 
     ```
 
 #### Challenges (2/2 done)
+
 Verify that the text is not selectable by double clicking
 Verify that the text is not selectable by dragging for a selection
 
-##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day17-disable-text-selection/index.html)
+##### [Live Preview](https://selimbiber.github.io/Vanilla-CSS-Challenges/Day17-disable-text-selection/)

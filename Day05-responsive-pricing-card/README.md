@@ -10,10 +10,10 @@
 ### Follow the given design from the design image and build the layout.
 
 ### Expected Result:
-  
-  ![responsive-pricing-card-mobile](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b28f153f-6ef6-4421-ad2a-8db61ed5310c)
-  
-  ![responsive-pricing-card-desktop](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/870326dc-8b3e-4e8d-8b67-2016ae44340b)
+
+![responsive-pricing-card-mobile](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/243195531-b28f153f-6ef6-4421-ad2a-8db61ed5310c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T175853Z&X-Amz-Expires=300&X-Amz-Signature=7265aa5ffcda9d45d8f517e9418c488d87d73b5ef649bf187d911ac5fc243664&X-Amz-SignedHeaders=host)
+
+![responsive-pricing-card-desktop](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/243195544-870326dc-8b3e-4e8d-8b67-2016ae44340b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T175846Z&X-Amz-Expires=300&X-Amz-Signature=51d2c9418a623f14529de0d1758ebce45729f2177d7875e92e7782741fc52027&X-Amz-SignedHeaders=host)
 
 #### Note:
 
@@ -30,4 +30,4 @@ This is a self assessed lab. There are not test cases available for this exercis
 - [x] Add the header, price and the button
 - [x] Make the card responsive for the mobile design
 
-### [Click for live code preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day05-responsive-pricing-card/index.html)
+### [Click for live code preview](https://selimbiber.github.io/Vanilla-CSS-Challenges/Day05-responsive-pricing-card/)

@@ -8,7 +8,7 @@
 
 ### Expected Result:
 
-![loading-spinner](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/084c3084-7db2-4560-bdd5-3c9d2d962f0f)
+![loading-spinner](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/249524847-084c3084-7db2-4560-bdd5-3c9d2d962f0f.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T203112Z&X-Amz-Expires=300&X-Amz-Signature=e0072aec6ca2f253215526851469719ca8ef5efe9c2b9804db0d2e70654461fd&X-Amz-SignedHeaders=host)
 
 #### Challenges (5/5 done)
 
@@ -18,4 +18,4 @@
 - [x] Set the animate property to spin forever.
 - [x] Set the proper keyframe for for spin creating the 360 degress rotation using the transform property and rotate()
 
-##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day16-loading-spinner/index.html)
+##### [Live Preview](https://selimbiber.github.io/Vanilla-CSS-Challenges/Day16-loading-spinner/)

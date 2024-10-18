@@ -65,10 +65,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Original Design
 
-![reminder_application_original-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/97f39ba6-7684-4cb1-a1ee-9b2c5b908fa1)
+![reminder_application_original-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/280697809-97f39ba6-7684-4cb1-a1ee-9b2c5b908fa1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T181128Z&X-Amz-Expires=300&X-Amz-Signature=14fe862cebb79d80d8c9eebf25270f1381df388e3e488618654da34ce84ba2e5&X-Amz-SignedHeaders=host)
 
 ### My Design
 
-![reminder_application_my-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/68fc4dab-5642-432b-a634-f85442caa2d5)
+![reminder_application_my-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/280697826-68fc4dab-5642-432b-a634-f85442caa2d5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T181119Z&X-Amz-Expires=300&X-Amz-Signature=c27dcf8d5acceffb3790033ad895282b33b2f5e7d9daaabb8ed387bac79004d5&X-Amz-SignedHeaders=host)
 
-## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-reminder-application/index.html)
+## [Preview Link of Project](https://selimbiber.github.io/Vanilla-CSS-Challenges/%2BDay30-reminder-application/)

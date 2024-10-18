@@ -18,4 +18,4 @@
 
 - [x] The Star should be on center of the circle
 
-##### [Live Preview](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day22-simple-css-shape/index.html)
+##### [Live Preview](https://selimbiber.github.io/Vanilla-CSS-Challenges/Day22-simple-css-shape/)

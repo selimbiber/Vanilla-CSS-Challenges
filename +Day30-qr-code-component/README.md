@@ -9,6 +9,7 @@ Thanks for checking out this front-end coding challenge.
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
+
 - [Frontend Mentor - QR code component](#frontend-mentor---qr-code-component)
   - [Welcome! 👋](#welcome-)
   - [Table of contents](#table-of-contents)
@@ -38,26 +39,33 @@ You can use any tools you like to help you complete the challenge. So if you've 
 ## Builted with:
 
 ### Semantic HTML5 markup
+
 ### CSS custom properties
+
 ### Flexbox
+
 ### Mobile-first workflow
 
 ## Author Links:
 
 ### [Website](https://www.selimbiber.dev)
+
 ### [LinkedIn](https://linkedin.com/in/selim-biber-406550214)
+
 ### [Twitter](https://www.twitter.com/selimbbr)
+
 ### [FreeCodeCamp](https://www.freecodecamp.org/selimbiber)
+
 ### [Frontend Mentor](https://www.frontendmentor.io/profile/selimbiber)
 
 ## Preview Images for Project:
 
 ### Mobile Design
 
-![my-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/c8616727-180b-4b89-b5ef-5145e3cdcc28)
+![my-mobile-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/278832319-c8616727-180b-4b89-b5ef-5145e3cdcc28.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T180806Z&X-Amz-Expires=300&X-Amz-Signature=931d56e60f6b5108c43bcd382b0d1b9a9ab718c51a098034feddbc986aba8754&X-Amz-SignedHeaders=host)
 
 ### Desktop Design
 
-![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/f14522ce-8470-46e9-8a25-b2717aca00a7)
+![my-desktop-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/278832325-f14522ce-8470-46e9-8a25-b2717aca00a7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T180753Z&X-Amz-Expires=300&X-Amz-Signature=4935d684e88ccd1d62920bdc5fec70f4fba7ab371b1f51c1a5a4693a1420ceb3&X-Amz-SignedHeaders=host)
 
-## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-qr-code-component/index.html)
+## [Preview Link of Project](https://selimbiber.github.io/Vanilla-CSS-Challenges/%2BDay30-qr-code-component/)

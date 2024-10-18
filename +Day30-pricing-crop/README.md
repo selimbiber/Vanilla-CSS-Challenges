@@ -63,10 +63,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Original Design
 
-![original-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/8a3d403e-c18e-4bb9-9f12-f4b1c99b1793)
+![original-desktop-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/280546767-8a3d403e-c18e-4bb9-9f12-f4b1c99b1793.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T181020Z&X-Amz-Expires=300&X-Amz-Signature=a26a481791d325742fb4ea7aab33a68788e9bd6b4d142862b03a547725085cd8&X-Amz-SignedHeaders=host)
 
 ### My Design
 
-![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/64001dd6-4a79-4aee-aa1e-90362969f57b)
+![my-desktop-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/280546648-64001dd6-4a79-4aee-aa1e-90362969f57b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T181012Z&X-Amz-Expires=300&X-Amz-Signature=700ddefe8a9bf886bb6ea070489e5b7a5e6c43eb7bc1a97e6f8acb2faa191f30&X-Amz-SignedHeaders=host)
 
-## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-pricing-crop/index.html)
+## [Preview Link of Project](https://selimbiber.github.io/Vanilla-CSS-Challenges/%2BDay30-pricing-crop/)

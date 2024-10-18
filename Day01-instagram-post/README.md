@@ -2,9 +2,9 @@
 
 ## In the Exercise Lab, your goal is to build an Instagram Post as per the given design.
 
-### Expected result: ![instagram-post](https://github.com/selimbiber/-30Day30Project-HTML5-CSS3-Challenges/assets/117529414/28c60b82-254e-4d81-854a-1ef47768a414)
+### Expected result: ![instagram-post](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/241323988-28c60b82-254e-4d81-854a-1ef47768a414.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T175448Z&X-Amz-Expires=300&X-Amz-Signature=8f428f8782508fb9ed53458aee5668c9aaaef4dc837205f630114a13dfbc6984&X-Amz-SignedHeaders=host)
 
-### The Given Instagram Post consits of 4 sections:
+### The Given Instagram Post consist of 4 sections:
 
 1.  Header
 2.  Image
@@ -31,4 +31,4 @@
 
 - [x] Use the font `Cabin` for displaying text on the page. (The font is already imported in CSS file)
 
-### [Click for Live code](https://htmlpreview.github.io/?https://github.com/selimbiber/-30Day30Project-HTML5-CSS3-Challenges/blob/main/Day01-instagram-post/index.html)
+### [Click for Live code](https://selimbiber.github.io/Vanilla-CSS-Challenges/Day01-instagram-post/)

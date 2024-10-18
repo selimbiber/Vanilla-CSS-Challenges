@@ -2,8 +2,7 @@
 
 ## In the exercise lab you would have to build the given Playground Card design to as close as possible.
 
-### Expected result: ![playground-title](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/567bbf4e-50ce-464e-866a-28dc1dc9dbe0)
-
+### Expected result: ![playground-title](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/241449835-567bbf4e-50ce-464e-866a-28dc1dc9dbe0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T175613Z&X-Amz-Expires=300&X-Amz-Signature=1ff374fd9d3ab6a10c9072279cb65b36d952fbff9d9491982f1839a0c9b152a4&X-Amz-SignedHeaders=host)
 
 ### You can make use of flexbox or grid to complete this lab. There are no restrictions set for building this component.
 
@@ -17,15 +16,10 @@
 #### Challenges for Playground Title (6/6 done)
 
 - [x] The default background colour for the webpage is `#f4f4f5` and the background colour of the card is `white`
-  
-- [x] The playground icon should occupy the top left position of the card and spanning till the playground language element 
-  
-- [x] The font weight of playground title should be `600` and `1.5rem` 
-  
+- [x] The playground icon should occupy the top left position of the card and spanning till the playground language element
+- [x] The font weight of playground title should be `600` and `1.5rem`
 - [x] `Inter` font should be used for the text in the playground card
-  
 - [x] All the text in the page should be left aligned
-  
 - [x] The colour of the description and the collaborators text should be `#71717a`
 
-### [Click for live code](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/Day02-playground-card/index.html)
+### [Click for live code](https://selimbiber.github.io/Vanilla-CSS-Challenges/Day02-playground-card/)

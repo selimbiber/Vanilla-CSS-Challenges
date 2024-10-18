@@ -21,6 +21,7 @@ Your users should be able to:
 - See hover states for interactive elements
 
 ## Table of contents
+
 - [Frontend Mentor - Order summary card](#frontend-mentor---order-summary-card)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -44,26 +45,33 @@ Your users should be able to:
 ## Builted with:
 
 ### Semantic HTML5 markup
+
 ### CSS custom properties
+
 ### Flexbox
+
 ### Mobile-first workflow
 
 ## Author Links:
 
 ### [Website](https://www.selimbiber.dev)
+
 ### [LinkedIn](https://linkedin.com/in/selim-biber-406550214)
+
 ### [Twitter](https://www.twitter.com/selimbbr)
+
 ### [FreeCodeCamp](https://www.freecodecamp.org/selimbiber)
+
 ### [Frontend Mentor](https://www.frontendmentor.io/profile/selimbiber)
 
 ## Preview Images for Project:
 
 ### Mobile Design
 
-![my-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b3aac4ec-13e6-4a77-9e13-851607881a78)
+![my-mobile-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/279313297-b3aac4ec-13e6-4a77-9e13-851607881a78.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T180944Z&X-Amz-Expires=300&X-Amz-Signature=bb1fcc4c094655e21c62daf060f7516142b50342a1012f08847e365432d10336&X-Amz-SignedHeaders=host)
 
 ### Desktop Design
 
-![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/e368edd2-97e2-471a-b3a1-72456300d991)
+![my-desktop-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/279313318-e368edd2-97e2-471a-b3a1-72456300d991.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T180928Z&X-Amz-Expires=300&X-Amz-Signature=93e4393cf074ff1ebab0237a8b8b49fc2bd5d0d0d400bfaaab07e7c77a4ad967&X-Amz-SignedHeaders=host)
 
-## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/blob/main/%2BDay30-order-summary-component/index.html)
+## [Preview Link of Project](https://selimbiber.github.io/Vanilla-CSS-Challenges/%2BDay30-order-summary-component/)
