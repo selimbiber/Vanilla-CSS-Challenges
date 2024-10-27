@@ -10,7 +10,9 @@
 
 ### Follow the given design from the design image and build the layout.
 
-### Expected Result:![codedamn-nav-bar](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/241710036-8c4cffc9-1ea6-4a85-995c-17091b5b350e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T175651Z&X-Amz-Expires=300&X-Amz-Signature=9db0019b1c41167e84aad7db781067cd3804b20c36b168a19e2530bded5dcf20&X-Amz-SignedHeaders=host)
+### Expected Result:
+
+![codedamn-nav-bar](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/8c4cffc9-1ea6-4a85-995c-17091b5b350e)
 
 #### Note:
 

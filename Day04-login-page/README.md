@@ -12,7 +12,9 @@
 
 ### Follow the given design from the design image and build the layout.
 
-### Expected Result: <img width="540" alt="sign-in-to-codedamn" src="https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/242895168-00244bd7-850a-4e11-bb25-254b2f72b750.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T175739Z&X-Amz-Expires=300&X-Amz-Signature=1b89c558bbe67eeb3488a6a6021afc00c0a6c0c29deae4df7e13ec5c53911af0&X-Amz-SignedHeaders=host">
+### Expected Result:
+
+<img width="540" alt="sign-in-to-codedamn" src="https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/00244bd7-850a-4e11-bb25-254b2f72b750">
 
 #### Note:
 

@@ -24,21 +24,21 @@ This is a solution to the [Huddle landing page with single introductory section]
 
 #### Mobile Layout
 
-![mobile-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/254442928-5667903e-e1df-4dcd-b2b2-7d9fe09b1051.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T203553Z&X-Amz-Expires=300&X-Amz-Signature=de70510de88a9104c26781ad2b9794f71ef6827e93ad54e693419be32feacd53&X-Amz-SignedHeaders=host)
+![mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/5667903e-e1df-4dcd-b2b2-7d9fe09b1051)
 
 #### Desktop Layout
 
-![desktop-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/254442939-0ebe5cf9-0dfe-4129-8746-052fb1116aca.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T203545Z&X-Amz-Expires=300&X-Amz-Signature=37b45a7558f6884c3fc2ec33c2c2c70cf83386d06d18de74e80a2133b8858f10&X-Amz-SignedHeaders=host)
+![desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/0ebe5cf9-0dfe-4129-8746-052fb1116aca)
 
 ### My Result
 
 #### Mobile Layout
 
-![mobile-layout](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/254443066-aa4e7dbd-5c23-4613-a8c4-641c950aad0b.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T203538Z&X-Amz-Expires=300&X-Amz-Signature=1681b8cacb5bdb2fb9220562213fe4a87423bc07e75b5f48e0dd744193cfede9&X-Amz-SignedHeaders=host)
+![mobile-layout](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/aa4e7dbd-5c23-4613-a8c4-641c950aad0b)
 
 #### Desktop Layout
 
-![desktop-layout](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/254443073-a649a8ac-ba31-44f9-afe5-54214d4da722.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T203527Z&X-Amz-Expires=300&X-Amz-Signature=2ebbef1ecc4e157aabe63430283137ff333c133eb344d5a71e9089a8403484d5&X-Amz-SignedHeaders=host)
+![desktop-layout](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/a649a8ac-ba31-44f9-afe5-54214d4da722)
 
 ### Links
 

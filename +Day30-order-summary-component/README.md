@@ -68,10 +68,10 @@ Your users should be able to:
 
 ### Mobile Design
 
-![my-mobile-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/279313297-b3aac4ec-13e6-4a77-9e13-851607881a78.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T180944Z&X-Amz-Expires=300&X-Amz-Signature=bb1fcc4c094655e21c62daf060f7516142b50342a1012f08847e365432d10336&X-Amz-SignedHeaders=host)
+![my-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/b3aac4ec-13e6-4a77-9e13-851607881a78)
 
 ### Desktop Design
 
-![my-desktop-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/279313318-e368edd2-97e2-471a-b3a1-72456300d991.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T180928Z&X-Amz-Expires=300&X-Amz-Signature=93e4393cf074ff1ebab0237a8b8b49fc2bd5d0d0d400bfaaab07e7c77a4ad967&X-Amz-SignedHeaders=host)
+![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/e368edd2-97e2-471a-b3a1-72456300d991)
 
 ## [Preview Link of Project](https://selimbiber.github.io/Vanilla-CSS-Challenges/%2BDay30-order-summary-component/)

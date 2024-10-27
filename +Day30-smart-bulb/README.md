@@ -65,10 +65,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Original Design
 
-![smart-bulb_original-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/281128313-0cce8fa8-d15f-4159-9f7b-9ff4880e7013.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T181216Z&X-Amz-Expires=300&X-Amz-Signature=f7cf666143cd23678ee3dc93693935478125b42824cad2e396ca6e583c59e0a0&X-Amz-SignedHeaders=host)
+![smart-bulb_original-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/0cce8fa8-d15f-4159-9f7b-9ff4880e7013)
 
 ### My Design
 
-![smart-bulb_my-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/281128343-1a9213a3-e17a-48dc-925b-2a249e13aabf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T181200Z&X-Amz-Expires=300&X-Amz-Signature=c68b6ff93f0ac9446da1a79b50dc8dc765a521031cea7543c70fcbc87d8a9e2a&X-Amz-SignedHeaders=host)
+![smart-bulb_my-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/1a9213a3-e17a-48dc-925b-2a249e13aabf)
 
 ## [Preview Link of Project](https://selimbiber.github.io/Vanilla-CSS-Challenges/%2BDay30-smart-bulb/)

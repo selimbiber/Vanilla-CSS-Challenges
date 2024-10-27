@@ -4,7 +4,7 @@
 
 ### Expected Result:
 
-![wobble-grid-elements](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/250086129-4707379d-2d35-4fba-89ac-966f2ee0eba1.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T203306Z&X-Amz-Expires=300&X-Amz-Signature=0a4f04b7c3878b6bbb64e1beb717658611967b2a74b12ca6e8f186c7a687e503&X-Amz-SignedHeaders=host)
+![wobble-grid-elements](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/4707379d-2d35-4fba-89ac-966f2ee0eba1)
 
 #### Challenges (2/2 done)
 

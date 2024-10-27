@@ -62,10 +62,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Mobile Design
 
-![my-mobile-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/278832319-c8616727-180b-4b89-b5ef-5145e3cdcc28.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T180806Z&X-Amz-Expires=300&X-Amz-Signature=931d56e60f6b5108c43bcd382b0d1b9a9ab718c51a098034feddbc986aba8754&X-Amz-SignedHeaders=host)
+![my-mobile-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/c8616727-180b-4b89-b5ef-5145e3cdcc28)
 
 ### Desktop Design
 
-![my-desktop-design](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/278832325-f14522ce-8470-46e9-8a25-b2717aca00a7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T180753Z&X-Amz-Expires=300&X-Amz-Signature=4935d684e88ccd1d62920bdc5fec70f4fba7ab371b1f51c1a5a4693a1420ceb3&X-Amz-SignedHeaders=host)
+![my-desktop-design](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/f14522ce-8470-46e9-8a25-b2717aca00a7)
 
 ## [Preview Link of Project](https://selimbiber.github.io/Vanilla-CSS-Challenges/%2BDay30-qr-code-component/)

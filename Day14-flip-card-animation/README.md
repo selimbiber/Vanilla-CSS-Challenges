@@ -10,7 +10,7 @@
 
 ### Expected Result:
 
-![flip-card-animation](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/249160301-40bda6f7-9dea-4c05-8855-172b03a7b7d3.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T202958Z&X-Amz-Expires=300&X-Amz-Signature=acceaa2cc0eefa52eff3d60b7f1e9797f5e1fbe5834ad8282c95118e52189536&X-Amz-SignedHeaders=host)
+![flip-card-animation](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/40bda6f7-9dea-4c05-8855-172b03a7b7d3)
 
 #### Challenges (3/3 done)
 

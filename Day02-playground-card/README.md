@@ -2,7 +2,7 @@
 
 ## In the exercise lab you would have to build the given Playground Card design to as close as possible.
 
-### Expected result: ![playground-title](https://github-production-user-asset-6210df.s3.amazonaws.com/117529414/241449835-567bbf4e-50ce-464e-866a-28dc1dc9dbe0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241018T175613Z&X-Amz-Expires=300&X-Amz-Signature=1ff374fd9d3ab6a10c9072279cb65b36d952fbff9d9491982f1839a0c9b152a4&X-Amz-SignedHeaders=host)
+### Expected result: ![playground-title](https://github.com/selimbiber/30Day30Project-HTML5-CSS3-Challenges/assets/117529414/567bbf4e-50ce-464e-866a-28dc1dc9dbe0)
 
 ### You can make use of flexbox or grid to complete this lab. There are no restrictions set for building this component.
 
