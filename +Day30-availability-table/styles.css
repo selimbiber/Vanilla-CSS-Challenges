@@ -1,0 +1,80 @@
+:root {
+  --color0: #ffcccc; /* Light Red */
+  --color1: #ff9999; /* Red */
+  --color2: #ffff99; /* Light Yellow */
+  --color3: #99ff99; /* Light Green */
+  --color4: #99ccff; /* Light Blue */
+  --color5: #ccccff; /* Light Purple */
+  --solid-border: 2px solid black;
+  --dashed-border: 2px dashed black;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th.time {
+  background-color: #f0f0f0;
+}
+
+td.available-0 {
+  background-color: var(--color0);
+}
+td.available-1 {
+  background-color: var(--color1);
+}
+td.available-2 {
+  background-color: var(--color2);
+}
+td.available-3 {
+  background-color: var(--color3);
+}
+td.available-4 {
+  background-color: var(--color4);
+}
+td.available-5 {
+  background-color: var(--color5);
+}
+
+tr.sharp > td {
+  border-bottom: var(--solid-border);
+}
+
+tr.half > td {
+  border-bottom: var(--dashed-border);
+}
+
+#legend {
+  margin: 20px 0;
+}
+
+#legend-gradient {
+  margin-top: 5px;
+  height: 20px;
+  background-image: linear-gradient(
+    to right,
+    var(--color0) 0%,
+    var(--color0) 20%,
+    var(--color1) 20%,
+    var(--color1) 40%,
+    var(--color2) 40%,
+    var(--color2) 60%,
+    var(--color3) 60%,
+    var(--color3) 80%,
+    var(--color4) 80%,
+    var(--color4) 100%
+  );
+}
